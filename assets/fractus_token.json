@@ -1,5 +1,5 @@
 {
-  "name": "Fractus Token",
+  "name": "Fractus",
   "symbol": "FRA",
   "description": "Fractus — The Fractal Intelligence Engine bridging math, AI, and blockchain truth.",
   "image": "https://raw.githubusercontent.com/marcomars13/fractus-ia/main/assets/fractus_logo.png",
@@ -7,7 +7,7 @@
   "seller_fee_basis_points": 0,
   "attributes": [
     { "trait_type": "Creator", "value": "Marc Cedrych" },
-    { "trait_type": "Network", "value": "Solana Devnet" },
+    { "trait_type": "Network", "value": "Solana Mainnet" },
     { "trait_type": "Purpose", "value": "Fractal Proof of Validation" }
   ],
   "collection": {
@@ -24,10 +24,9 @@
     "category": "token",
     "creators": [
       {
-        "address": "29SH53rvTfcrQ9xrjoC8YqwA21NcvaGzzTdjszMjYEaw",
+        "address": "Ai5a3hEMApgb1cMaZE37nLMDSzEL56yF6XJ1VWo1HUYj",
         "share": 100
       }
     ]
   }
 }
-
