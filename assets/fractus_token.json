@@ -1,0 +1,12 @@
+{
+  "name": "Fractus",
+  "symbol": "FRA",
+  "description": "Fractus est une loi fractale appliquée à la détection d’anomalies et à la modélisation de la conscience. Ce token représente la première validation on-chain de la Loi Fractus, ancrée sur Solana.",
+  "image": "https://raw.githubusercontent.com/marcomars13/fractus-ia/main/assets/fractus_banner.png",
+  "extensions": {
+    "website": "https://github.com/marcomars13/fractus-ia",
+    "twitter": "https://x.com/marcatypique",
+    "github": "https://github.com/marcomars13/fractus-ia"
+  },
+  "tags": ["fractal", "science", "ai", "anomaly", "consciousness"]
+}
