@@ -36,3 +36,5 @@ fractus_model_full.py
 *.tar
 *.tar.gz
 
+backend/clinvar.vcf.gz
+backend/fractus_index.pkl
