@@ -38,3 +38,5 @@ fractus_model_full.py
 
 backend/clinvar.vcf.gz
 backend/fractus_index.pkl
+backend/fractus_index.pkl
+backend/clinvar.vcf.gz
