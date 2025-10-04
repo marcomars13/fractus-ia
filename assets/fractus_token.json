@@ -1,12 +1,33 @@
 {
-  "name": "Fractus",
+  "name": "Fractus Token",
   "symbol": "FRA",
-  "description": "Fractus est une loi fractale appliquée à la détection d’anomalies et à la modélisation de la conscience. Ce token représente la première validation on-chain de la Loi Fractus, ancrée sur Solana.",
-  "image": "https://raw.githubusercontent.com/marcomars13/fractus-ia/main/assets/fractus_banner.png",
-  "extensions": {
-    "website": "https://github.com/marcomars13/fractus-ia",
-    "twitter": "https://x.com/marcatypique",
-    "github": "https://github.com/marcomars13/fractus-ia"
+  "description": "Fractus — The Fractal Intelligence Engine bridging math, AI, and blockchain truth.",
+  "image": "https://raw.githubusercontent.com/marcomars13/fractus-ia/main/assets/fractus_logo.png",
+  "external_url": "https://github.com/marcomars13/fractus-ia",
+  "seller_fee_basis_points": 0,
+  "attributes": [
+    { "trait_type": "Creator", "value": "Marc Cedrych" },
+    { "trait_type": "Network", "value": "Solana Devnet" },
+    { "trait_type": "Purpose", "value": "Fractal Proof of Validation" }
+  ],
+  "collection": {
+    "name": "Fractus",
+    "family": "Mirovia"
   },
-  "tags": ["fractal", "science", "ai", "anomaly", "consciousness"]
+  "properties": {
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/marcomars13/fractus-ia/main/assets/fractus_logo.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "token",
+    "creators": [
+      {
+        "address": "29SH53rvTfcrQ9xrjoC8YqwA21NcvaGzzTdjszMjYEaw",
+        "share": 100
+      }
+    ]
+  }
 }
+
