@@ -58,30 +58,8 @@ fractus-ia/
 | **Fractus Ultimate (v7)** | 50 000 | **0.80 km** | **0.03 km** | **1.3 %** | **× 80** |
 | **Fractus + Plonk Hybrid** | 50 000 | **0.00 km** | **0.00 km** | **0.0 %** | **∞ (stability cap)** |
 
-fractus-ia/
-├── backend/ → Core engine, fractal algorithms, skyline analysis
-├── frontend/ → Interactive dashboard & visualization UI
-├── assets/ → Visuals, banners, and token logos
-├── data/ → Local datasets (excluded)
-├── results/ → Output and fractal proofs (excluded)
-└── README.md → You are here
 
 
----
-
-### 🔬 Experimental Results — 50 000 Images (Mapillary)
-
-| Model | Dataset Size | Mean Error (km) | Median Error (km) | Error > 1 km | Compression Gain |
-|--------|---------------|----------------|-------------------|---------------|-----------------|
-| **Plonk Official (KDTree Vote)** | 50 000 | 63.99 km | 0.03 km | 22.3 % | — |
-| **Fractus Ultimate (v7)** | 50 000 | **0.80 km** | **0.03 km** | **1.3 %** | **× 80** |
-| **Fractus + Plonk Hybrid** | 50 000 | **0.00 km** | **0.00 km** | **0.0 %** | **∞ (stability cap)** |
-
-🧠 Notes:
-- 94 % reduction in major outliers  
-- Stable performance even in adverse visibility (no horizon / heavy clouds)  
-- 80× compression ratio = reduction of informational entropy per vector  
-- Demonstrated cross-domain generalization (Geo, Bio, Astro datasets)
 
 
 
