@@ -1,0 +1,20 @@
+#
+!/bin/zsh
+
+echo "🛑 Arrêt des anciens serveurs..."
+pkill -9 -f "uvicorn" || true
+pkill -9 -f "next" || true
+pkill -9 -f "node" || true
+
+echo "✅ Ports libérés."
+echo "🚀 Démarrage backend..."
+cd ~/Projets/fractus-ia
+source .venv/bin/activate
+uvicorn backend.main:app --reload --host 127.0.0.1 --port 8000 &
+
+sleep 2  # petite pause pour éviter conflits
+
+echo "🚀 Démarrage frontend..."
+cd ~/Projets/fractus-ia/frontend
+npm run dev &
+

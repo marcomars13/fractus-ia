@@ -1,0 +1,21 @@
+=== Résumé analyse résultats ===
+
+Plonk:
+    mean: 52.21 km
+  median: 32.66 km
+     std: 122.36 km
+     p90: 69.02 km
+     p95: 84.65 km
+     max: 1464.40 km
+   count: 4976.00 km
+   zeros: 0.00 km
+
+Fractus:
+    mean: 26.59 km
+  median: 0.05 km
+     std: 127.98 km
+     p90: 41.01 km
+     p95: 98.74 km
+     max: 1462.97 km
+   count: 4976.00 km
+   zeros: 0.00 km

@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "1516881052808566",
+    "gt": [
+      47.637682824846,
+      7.5643729774359
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.3056297302246094,
+      "lon": 0.908728301525116,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1982165845268582",
+    "gt": [
+      45.451484284228,
+      8.1120011846048
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 2.601119041442871,
+      "lon": 1.7217470407485962,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1983632975125869",
+    "gt": [
+      48.090782482802,
+      8.2006172812896
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 311.59954833984375,
+      "lon": 425.9256896972656,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "9914416162010971",
+    "gt": [
+      41.007593066077,
+      0.38283650088848
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 9.52102279663086,
+      "lon": 12.81673812866211,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1476551249352070",
+    "gt": [
+      41.271215048448,
+      1.5286778950468
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.20232093334198,
+      "lon": 0.39171674847602844,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1512249756085219",
+    "gt": [
+      50.999559007676,
+      -3.7334560087447
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 12.42587661743164,
+      "lon": 6.995418071746826,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1579327079433486",
+    "gt": [
+      48.434756066254,
+      7.4975574302602
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 9.26469612121582,
+      "lon": 22.0997314453125,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2837363833185798",
+    "gt": [
+      41.43596878658,
+      9.1931825221312
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.1539713144302368,
+      "lon": 3.0293900966644287,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2965598610384319",
+    "gt": [
+      47.619959498577,
+      7.5836264074018
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 4.054259300231934,
+      "lon": 1.1728172302246094,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1477627286693088",
+    "gt": [
+      41.270257958041,
+      1.9679393089777
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 12.485416412353516,
+      "lon": 91.99658203125,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "3984792858399884",
+    "gt": [
+      50.435450582163,
+      7.9174951308604
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 10.02662467956543,
+      "lon": 6.862832069396973,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2455824968101310",
+    "gt": [
+      51.3419028,
+      -0.5062722
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 3297.34228515625,
+      "lon": 2549.489990234375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1481042643073372",
+    "gt": [
+      47.557933294738,
+      7.5885333945117
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 14.631561279296875,
+      "lon": 1781.8165283203125,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2531502340326072",
+    "gt": [
+      50.604927112214,
+      -3.6088848184471
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.7763357162475586,
+      "lon": 1.664046287536621,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1529704678309396",
+    "gt": [
+      41.269366684239,
+      1.9999280295437
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 343.47344970703125,
+      "lon": 18.206729888916016,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2953635354872086",
+    "gt": [
+      41.270542444725,
+      1.9218171489419
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 93.51353454589844,
+      "lon": 145.11473083496094,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1544119066177729",
+    "gt": [
+      50.221019881502,
+      -5.3856059024915
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 166.7202911376953,
+      "lon": 55.23755645751953,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1547284362893196",
+    "gt": [
+      51.488585060563,
+      -2.6183239159038
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 11.85307502746582,
+      "lon": 5.45355224609375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1571423146532882",
+    "gt": [
+      47.790761661105,
+      7.5834960908638
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 36.72541809082031,
+      "lon": 18.811552047729492,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1991329481335911",
+    "gt": [
+      49.700012610103,
+      8.1649556308902
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 169.36097717285156,
+      "lon": 546.5426635742188,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1488980978109248",
+    "gt": [
+      41.269681232613,
+      1.9419779952402
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 2453.985107421875,
+      "lon": 2664.152099609375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1480120868986046",
+    "gt": [
+      41.269123281932,
+      1.9740182184677
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.9018110036849976,
+      "lon": 3.105901002883911,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "4179794835388687",
+    "gt": [
+      50.420259692324,
+      7.8756389051203
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 6.334041118621826,
+      "lon": 4.92263126373291,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2374185169424820",
+    "gt": [
+      51.298224543349,
+      -0.75650733930411
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 999.0484008789062,
+      "lon": 1145.7801513671875,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "24131089796498634",
+    "gt": [
+      41.001268020313,
+      0.42746211160246
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 43.22584533691406,
+      "lon": 60.879241943359375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2423549008000859",
+    "gt": [
+      50.192659465897,
+      -5.4334884249365
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 13.09613037109375,
+      "lon": 14.74847412109375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2482135825271420",
+    "gt": [
+      51.328106324727,
+      -1.3576851658211
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 0.4615054726600647,
+      "lon": 0.9214710593223572,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1541705920525427",
+    "gt": [
+      51.320431894574,
+      -2.2184538668125
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 5.816045761108398,
+      "lon": 11.774786949157715,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1989454581205723",
+    "gt": [
+      48.087125064844,
+      5.0073820303475
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 2.104322671890259,
+      "lon": 2.0227601528167725,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2945509812395357",
+    "gt": [
+      41.24530906472,
+      1.8749752084316
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 4.848544120788574,
+      "lon": 3.9019410610198975,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1983964805359404",
+    "gt": [
+      45.212211085672,
+      7.9374619129984
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 93.689453125,
+      "lon": 20.525203704833984,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1474854486223737",
+    "gt": [
+      50.605095600267,
+      -3.5516480980418
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 0.7948386669158936,
+      "lon": 4.717868328094482,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1505614809853075",
+    "gt": [
+      41.249002254715,
+      1.8869778708436
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 10.752738952636719,
+      "lon": 6.26522159576416,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1518039202338265",
+    "gt": [
+      47.837139069779,
+      7.5658401205747
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 27.54840660095215,
+      "lon": 28.14423179626465,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "4004641629631498",
+    "gt": [
+      50.418169499612,
+      7.9394648296689
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.3987994194030762,
+      "lon": 1.14984130859375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1521952565302262",
+    "gt": [
+      41.264198840155,
+      1.9373404494547
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 0.7248610258102417,
+      "lon": 2.852640390396118,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2523457084465800",
+    "gt": [
+      51.366916082458,
+      -0.80935871418262
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 887.5177001953125,
+      "lon": 183.2994842529297,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2957829101056500",
+    "gt": [
+      47.631279808433,
+      7.5710484782375
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 8.42567253112793,
+      "lon": 3.8649842739105225,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "4079029078825991",
+    "gt": [
+      50.616556649174,
+      7.9316814596652
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 3250.152099609375,
+      "lon": 56.02399444580078,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2967497890095121",
+    "gt": [
+      47.857904174617,
+      7.5660178106297
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 346.1245422363281,
+      "lon": 582.5668334960938,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2366712576852419",
+    "gt": [
+      51.334266554532,
+      -0.77542540942953
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 0.0,
+      "lon": 16.266862869262695,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1521600511716540",
+    "gt": [
+      41.266843843181,
+      1.9525856159428
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 4.832883834838867,
+      "lon": 4.091254234313965,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1507386846259853",
+    "gt": [
+      41.266021257757,
+      1.9413382391643
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 0.878699004650116,
+      "lon": 1.8580589294433594,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1557295459014158",
+    "gt": [
+      47.610529164344,
+      7.5942230694598
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 7.124849319458008,
+      "lon": 6.316209316253662,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1514913206106602",
+    "gt": [
+      50.219116327776,
+      -5.2370536148726
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 3330.820068359375,
+      "lon": 2783.9013671875,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2600526630240091",
+    "gt": [
+      51.363987121374,
+      -0.31930920996151
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 7.716822147369385,
+      "lon": 7.935580730438232,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2957393344501416",
+    "gt": [
+      41.257961108826,
+      1.9014936396474
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 2.7668914794921875,
+      "lon": 1.4666492938995361,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1492282901535466",
+    "gt": [
+      41.270668368405,
+      1.7192263919577
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.839901328086853,
+      "lon": 2.131723642349243,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2934668856858856",
+    "gt": [
+      41.265730897383,
+      1.9528343427448
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 6.888637065887451,
+      "lon": 1.7866023778915405,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1634176703811760",
+    "gt": [
+      50.220393311413,
+      -5.2856492529622
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 5140.041015625,
+      "lon": 5052.98193359375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1715425395493179",
+    "gt": [
+      41.265601561351,
+      1.9414807048276
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 2.263258934020996,
+      "lon": 3.5717525482177734,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2626476547697486",
+    "gt": [
+      51.392069047192,
+      1.3912282807
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 2.30804443359375,
+      "lon": 1.126708984375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1530744361145049",
+    "gt": [
+      51.229756636682,
+      -3.8601892280989
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2944005922549712",
+    "gt": [
+      41.266431358544,
+      1.7833306749479
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 22.934141159057617,
+      "lon": 7.592551231384277,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1525956788763473",
+    "gt": [
+      41.308969510724,
+      2.0823003554976
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.3215599060058594,
+      "lon": 1.92718505859375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1553826725398479",
+    "gt": [
+      50.942408169997,
+      -4.4582656400008
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.3160314559936523,
+      "lon": 0.046630859375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1508669019652604",
+    "gt": [
+      41.243991983701,
+      1.858771655614
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 45.344139099121094,
+      "lon": 60.07679748535156,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2237173689956511",
+    "gt": [
+      50.1931315,
+      -5.406228
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1269.1851806640625,
+      "lon": 1188.8402099609375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1486493068365331",
+    "gt": [
+      41.24388928091,
+      1.8551491242892
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 11.357325553894043,
+      "lon": 22.343883514404297,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "4184420088280637",
+    "gt": [
+      50.753275531543,
+      7.8499842315886
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 67.8512191772461,
+      "lon": 17.452043533325195,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "24292175793781568",
+    "gt": [
+      51.385999895993,
+      0.75511471282475
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 30.40985679626465,
+      "lon": 21.536088943481445,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "24678291158470402",
+    "gt": [
+      51.392353645028,
+      1.3919826862636
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.685383677482605,
+      "lon": 2.20780086517334,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1479547499902330",
+    "gt": [
+      47.889231141543,
+      7.6120339480758
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 7.155523300170898,
+      "lon": 4.513195514678955,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2744821725909327",
+    "gt": [
+      51.391646044987,
+      1.4145925083831
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 35.3889274597168,
+      "lon": 46.50428009033203,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1988608511293656",
+    "gt": [
+      47.481104132384,
+      6.7647097233089
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 67.3703842163086,
+      "lon": 21.59197998046875,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2327518437383160",
+    "gt": [
+      41.257108232752,
+      1.7328472403998
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 14.805068016052246,
+      "lon": 8.45277214050293,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2298377607003410",
+    "gt": [
+      51.324607652994,
+      -0.63218085064147
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 5764.0390625,
+      "lon": 4162.34619140625,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1986730331490375",
+    "gt": [
+      44.962641677301,
+      8.2253135180399
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 2.4350297451019287,
+      "lon": 3.226881980895996,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1544010406218372",
+    "gt": [
+      51.2192914,
+      -3.9124128
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 116.59085083007812,
+      "lon": 95.46320343017578,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1532377724166807",
+    "gt": [
+      51.482397026203,
+      -3.5976825383464
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 40.53782653808594,
+      "lon": 8.010643005371094,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2788583274624406",
+    "gt": [
+      50.228419392485,
+      -5.2634234711128
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 26.91468048095703,
+      "lon": 71.98945617675781,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2301006960062209",
+    "gt": [
+      41.245649927166,
+      1.8142769023154
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 27.892786026000977,
+      "lon": 12.016620635986328,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2389057064572167",
+    "gt": [
+      41.212672713356,
+      1.5340045796366
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 5.48919677734375,
+      "lon": 1.947105884552002,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2946608195554715",
+    "gt": [
+      41.254367563532,
+      1.7235476262159
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 31.425060272216797,
+      "lon": 5.028345584869385,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "4196827840362238",
+    "gt": [
+      50.433352525544,
+      7.9195235740033
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.588402271270752,
+      "lon": 2.7607421875,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2837518356460659",
+    "gt": [
+      41.252951709674,
+      1.7901225821454
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 26.384883880615234,
+      "lon": 7.873988628387451,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1517817535216849",
+    "gt": [
+      51.479432489348,
+      -2.6165686033334
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2938740993071989",
+    "gt": [
+      41.242457821491,
+      1.8295469003726
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 0.841552734375,
+      "lon": 0.58831787109375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1481827252300487",
+    "gt": [
+      41.246152330764,
+      1.8239463567539
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 38.94837188720703,
+      "lon": 40.69493103027344,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1943667095787222",
+    "gt": [
+      50.726187854367,
+      7.8833961077206
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 58.49538040161133,
+      "lon": 57.8084831237793,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1478482226881958",
+    "gt": [
+      50.221375178209,
+      -5.2278725997768
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 0.44329833984375,
+      "lon": 19.031795501708984,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1493047881248059",
+    "gt": [
+      50.227861062587,
+      -5.2674673115191
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1730.22705078125,
+      "lon": 700.6652221679688,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2435741889934571",
+    "gt": [
+      50.228916079591,
+      -5.2255134395049
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 944.181640625,
+      "lon": 1015.3246459960938,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1985510204930744",
+    "gt": [
+      48.727922473814,
+      8.0889166020375
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 20.64385223388672,
+      "lon": 14.580596923828125,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1579054653055381",
+    "gt": [
+      51.392349639385,
+      1.3930896733543
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 4.562953948974609,
+      "lon": 1.8075218200683594,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2329570007224601",
+    "gt": [
+      41.247530679697,
+      1.7514958774964
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.08392333984375,
+      "lon": 0.2021484375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2940966602812839",
+    "gt": [
+      41.241847138094,
+      1.8032896748208
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 911.4676513671875,
+      "lon": 905.0327758789062,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2528898753915628",
+    "gt": [
+      51.348798765145,
+      -0.65005399214464
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 948.0728759765625,
+      "lon": 1199.1580810546875,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1987583688075140",
+    "gt": [
+      45.823347287853,
+      8.2240501013917
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 7330.90234375,
+      "lon": 2951.060546875,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "4337776586442423",
+    "gt": [
+      51.385129443082,
+      0.76628601705484
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 6.566673755645752,
+      "lon": 2.8723974227905273,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1508765670119699",
+    "gt": [
+      47.820647292541,
+      7.5691230017535
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 6.377349853515625,
+      "lon": 8.19888687133789,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1504797714221138",
+    "gt": [
+      48.524221640909,
+      7.4935455889576
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 0.9852142333984375,
+      "lon": 0.8289327621459961,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2829110887399474",
+    "gt": [
+      41.251330363601,
+      1.7136395555564
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 8.366081237792969,
+      "lon": 12.545148849487305,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "4022018108037930",
+    "gt": [
+      51.392520845703,
+      1.3855086329011
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 1.6104404926300049,
+      "lon": 0.561394453048706,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1518741821883417",
+    "gt": [
+      41.243703735364,
+      1.7748595769603
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 8.066123962402344,
+      "lon": 25.488981246948242,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2810108002577904",
+    "gt": [
+      41.267481261931,
+      1.599054597473
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 4.354246139526367,
+      "lon": 2.5608155727386475,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "2372622766413124",
+    "gt": [
+      51.389389858743,
+      0.54235657571934
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 2.69036865234375,
+      "lon": 3.967806816101074,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1500293173884069",
+    "gt": [
+      48.366337886533,
+      7.4887806258388
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 165.30026245117188,
+      "lon": 57.39562225341797,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1613293522599033",
+    "gt": [
+      51.386405001587,
+      0.56130880090003
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 0.05316162109375,
+      "lon": 0.2802734375,
+      "score": 1.0
+    }
+  },
+  {
+    "id": "1493739997890220",
+    "gt": [
+      47.809114523901,
+      7.5904841258417
+    ],
+    "plonk": {
+      "lat": 0.0,
+      "lon": 0.0,
+      "info": "Pr\u00e9processing manquant, mod\u00e8le charg\u00e9 correctement"
+    },
+    "fractus": {
+      "lat": 13.26772689819336,
+      "lon": 20.73961639404297,
+      "score": 1.0
+    }
+  }
+]

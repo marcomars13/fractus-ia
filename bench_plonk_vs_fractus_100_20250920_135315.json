@@ -1,0 +1,3320 @@
+{
+  "settings": {
+    "images_dir": "/Users/marco/mapillary_france_adaptive/thumbs",
+    "ground_truth_csv": "/Users/marco/Projets/fractus-ia/data/ground_truth.csv",
+    "plonk_dir": "/Users/marco/Projets/fractus-ia/models/plonk_yfcc",
+    "sample_size": 100,
+    "seed": 42
+  },
+  "summary": {
+    "mean_error_plonk_km": 4626.333395205493,
+    "mean_error_fractus_km": 4518.058900183325,
+    "fractus_gain_percent_vs_plonk": 2.3403954227418655,
+    "num_evaluated": 100,
+    "num_plonk_ok": 100,
+    "num_fractus_ok": 100,
+    "duration_sec": 0.01
+  },
+  "results": [
+    {
+      "filename": "1467261684075051.jpg",
+      "gt": {
+        "lat": 41.121674340773,
+        "lon": -3.7297111414434
+      },
+      "fractus": {
+        "lat": 43.780205,
+        "lon": 53.271858,
+        "error_km": 4592.553806640152,
+        "raw": {
+          "lat": 43.780205,
+          "lon": 53.271858,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4587.962750050684,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1065279738708739.jpg",
+      "gt": {
+        "lat": 41.303443929626,
+        "lon": -4.1102253007532
+      },
+      "fractus": {
+        "lat": 44.371326,
+        "lon": 49.196266,
+        "error_km": 4282.671535619708,
+        "raw": {
+          "lat": 44.371326,
+          "lon": 49.196266,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4611.358569951567,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "967815514507009.jpg",
+      "gt": {
+        "lat": 41.462513082366,
+        "lon": -4.5564770232287
+      },
+      "fractus": {
+        "lat": 45.123638,
+        "lon": 50.900585,
+        "error_km": 4418.214337456982,
+        "raw": {
+          "lat": 45.123638,
+          "lon": 50.900585,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4633.17064284498,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "2427441944080866.jpg",
+      "gt": {
+        "lat": 41.11336840803,
+        "lon": -3.7257130258725
+      },
+      "fractus": {
+        "lat": 42.277222,
+        "lon": 46.439747,
+        "error_km": 4105.778148770597,
+        "raw": {
+          "lat": 42.277222,
+          "lon": 46.439747,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4587.010649945287,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "952688295488633.jpg",
+      "gt": {
+        "lat": 41.160657049743,
+        "lon": -5.4449160835659
+      },
+      "fractus": {
+        "lat": 48.212311,
+        "lon": 50.627281,
+        "error_km": 4400.826492199818,
+        "raw": {
+          "lat": 48.212311,
+          "lon": 50.627281,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4609.64886578485,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "481028346537928.jpg",
+      "gt": {
+        "lat": 41.405121542173,
+        "lon": -4.4105345773117
+      },
+      "fractus": {
+        "lat": 45.421181,
+        "lon": 54.402843,
+        "error_km": 4664.878273272115,
+        "raw": {
+          "lat": 45.421181,
+          "lon": 54.402843,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4625.401720883893,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "177429567614284.jpg",
+      "gt": {
+        "lat": 41.165274329888,
+        "lon": -5.4125920547523
+      },
+      "fractus": {
+        "lat": 49.727955,
+        "lon": 50.788143,
+        "error_km": 4379.138893212998,
+        "raw": {
+          "lat": 49.727955,
+          "lon": 50.788143,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4609.77033341607,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1186388951800768.jpg",
+      "gt": {
+        "lat": 41.254847254572,
+        "lon": -5.2821163750405
+      },
+      "fractus": {
+        "lat": 47.061142,
+        "lon": 55.520531,
+        "error_km": 4770.040516122873,
+        "raw": {
+          "lat": 47.061142,
+          "lon": 55.520531,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4618.096115615248,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "936347567166041.jpg",
+      "gt": {
+        "lat": 41.129903734328,
+        "lon": -5.1873301465887
+      },
+      "fractus": {
+        "lat": 47.211716,
+        "lon": 50.260059,
+        "error_km": 4379.33618195806,
+        "raw": {
+          "lat": 47.211716,
+          "lon": 50.260059,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4603.2427234957595,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1014938913849289.jpg",
+      "gt": {
+        "lat": 41.137101150813,
+        "lon": -4.1076636188304
+      },
+      "fractus": {
+        "lat": 47.061142,
+        "lon": 55.520531,
+        "error_km": 4690.46314433379,
+        "raw": {
+          "lat": 47.061142,
+          "lon": 55.520531,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4592.947795376925,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1491945491995044.jpg",
+      "gt": {
+        "lat": 41.526065637146,
+        "lon": -5.2581794641485
+      },
+      "fractus": {
+        "lat": 49.016449,
+        "lon": 49.675343,
+        "error_km": 4281.507205087071,
+        "raw": {
+          "lat": 49.016449,
+          "lon": 49.675343,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4647.689086499826,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "631987607759754.jpg",
+      "gt": {
+        "lat": 41.058578210095,
+        "lon": -5.198346025707
+      },
+      "fractus": {
+        "lat": 46.212311,
+        "lon": 52.270359,
+        "error_km": 4558.438917002255,
+        "raw": {
+          "lat": 46.212311,
+          "lon": 52.270359,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4595.512848602876,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "3858715220848342.jpg",
+      "gt": {
+        "lat": 41.653634414866,
+        "lon": -4.7326728938394
+      },
+      "fractus": {
+        "lat": 47.576885,
+        "lon": 53.613937,
+        "error_km": 4554.930715088742,
+        "raw": {
+          "lat": 47.576885,
+          "lon": 53.613937,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4656.046841583355,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "210894717319765.jpg",
+      "gt": {
+        "lat": 41.317158178372,
+        "lon": -4.3104469620872
+      },
+      "fractus": {
+        "lat": 45.421181,
+        "lon": 54.402843,
+        "error_km": 4661.681455026712,
+        "raw": {
+          "lat": 45.421181,
+          "lon": 54.402843,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4614.72756799666,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "784258157369440.jpg",
+      "gt": {
+        "lat": 41.087554570566,
+        "lon": -4.7416186030615
+      },
+      "fractus": {
+        "lat": 49.727955,
+        "lon": 50.788143,
+        "error_km": 4336.1487008924505,
+        "raw": {
+          "lat": 49.727955,
+          "lon": 50.788143,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4593.683445289162,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "739136350116897.jpg",
+      "gt": {
+        "lat": 41.287457430241,
+        "lon": -4.6812014793616
+      },
+      "fractus": {
+        "lat": 46.794296,
+        "lon": 57.130741,
+        "error_km": 4850.108548535,
+        "raw": {
+          "lat": 46.794296,
+          "lon": 57.130741,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4615.11174989761,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "809529350553271.jpg",
+      "gt": {
+        "lat": 41.489431012172,
+        "lon": -4.6142717626617
+      },
+      "fractus": {
+        "lat": 39.204536,
+        "lon": 50.016014,
+        "error_km": 4558.645714704165,
+        "raw": {
+          "lat": 39.204536,
+          "lon": 50.016014,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4636.720907949028,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "3035011439983373.jpg",
+      "gt": {
+        "lat": 41.00876281334,
+        "lon": -3.9864285232648
+      },
+      "fractus": {
+        "lat": 45.341114,
+        "lon": 49.079727,
+        "error_km": 4251.793082772904,
+        "raw": {
+          "lat": 45.341114,
+          "lon": 49.079727,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4577.671148320484,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1084952878698100.jpg",
+      "gt": {
+        "lat": 41.490714662905,
+        "lon": -5.0181671467549
+      },
+      "fractus": {
+        "lat": 48.930611,
+        "lon": 48.240559,
+        "error_km": 4164.60301580048,
+        "raw": {
+          "lat": 48.930611,
+          "lon": 48.240559,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4641.106910452649,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1528723021166866.jpg",
+      "gt": {
+        "lat": 41.118514946601,
+        "lon": -3.7230865056099
+      },
+      "fractus": {
+        "lat": 45.418629,
+        "lon": 58.317394,
+        "error_km": 4920.26115541439,
+        "raw": {
+          "lat": 45.418629,
+          "lon": 58.317394,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4587.558461366203,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "203217761405492.jpg",
+      "gt": {
+        "lat": 41.272423380935,
+        "lon": -3.6003053517849
+      },
+      "fractus": {
+        "lat": 43.176975,
+        "lon": 52.617119,
+        "error_km": 4545.276805007367,
+        "raw": {
+          "lat": 43.176975,
+          "lon": 52.617119,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4603.598563265681,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "3565177623618308.jpg",
+      "gt": {
+        "lat": 41.604470791137,
+        "lon": -4.8104403251869
+      },
+      "fractus": {
+        "lat": 44.173447,
+        "lon": 49.10923,
+        "error_km": 4322.591743221106,
+        "raw": {
+          "lat": 44.173447,
+          "lon": 49.10923,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4651.4285779726415,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "4127481327275207.jpg",
+      "gt": {
+        "lat": 41.424748060274,
+        "lon": -5.1123082626516
+      },
+      "fractus": {
+        "lat": 45.341114,
+        "lon": 49.079727,
+        "error_km": 4318.0066832823195,
+        "raw": {
+          "lat": 45.341114,
+          "lon": 49.079727,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4634.877629683452,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "2387371191665392.jpg",
+      "gt": {
+        "lat": 41.144789035052,
+        "lon": -3.9360480159454
+      },
+      "fractus": {
+        "lat": 45.529587,
+        "lon": 56.972454,
+        "error_km": 4830.960046175663,
+        "raw": {
+          "lat": 45.529587,
+          "lon": 56.972454,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4592.270686489939,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1430428310690608.jpg",
+      "gt": {
+        "lat": 41.071035573368,
+        "lon": -4.4547483625479
+      },
+      "fractus": {
+        "lat": 38.272156,
+        "lon": 51.537746,
+        "error_km": 4719.232293963661,
+        "raw": {
+          "lat": 38.272156,
+          "lon": 51.537746,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4588.939036243351,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "663731096203183.jpg",
+      "gt": {
+        "lat": 41.225799054569,
+        "lon": -4.1165767349623
+      },
+      "fractus": {
+        "lat": 39.071835,
+        "lon": 46.981861,
+        "error_km": 4286.524646434044,
+        "raw": {
+          "lat": 39.071835,
+          "lon": 46.981861,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4602.833259699777,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "321517522827070.jpg",
+      "gt": {
+        "lat": 41.477717427922,
+        "lon": -4.6773600062805
+      },
+      "fractus": {
+        "lat": 45.575104,
+        "lon": 53.463993,
+        "error_km": 4606.263347924387,
+        "raw": {
+          "lat": 45.575104,
+          "lon": 53.463993,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4636.068026846381,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "2578928112451331.jpg",
+      "gt": {
+        "lat": 41.078275060635,
+        "lon": -3.7067389907564
+      },
+      "fractus": {
+        "lat": 45.341114,
+        "lon": 49.079727,
+        "error_km": 4227.254443110201,
+        "raw": {
+          "lat": 45.341114,
+          "lon": 49.079727,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4582.971005600437,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "24853616817569827.jpg",
+      "gt": {
+        "lat": 41.516929339501,
+        "lon": -5.1910606006225
+      },
+      "fractus": {
+        "lat": 51.103786,
+        "lon": 53.336693,
+        "error_km": 4494.226845080402,
+        "raw": {
+          "lat": 51.103786,
+          "lon": 53.336693,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4645.919152996394,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "320936576090959.jpg",
+      "gt": {
+        "lat": 41.20016924315,
+        "lon": -3.9889200399403
+      },
+      "fractus": {
+        "lat": 49.727955,
+        "lon": 50.788143,
+        "error_km": 4276.0638076181585,
+        "raw": {
+          "lat": 49.727955,
+          "lon": 50.788143,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4598.857964627272,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1438357793684066.jpg",
+      "gt": {
+        "lat": 41.245908076896,
+        "lon": -3.8491975069009
+      },
+      "fractus": {
+        "lat": 46.780746,
+        "lon": 53.196537,
+        "error_km": 4502.145540868452,
+        "raw": {
+          "lat": 46.780746,
+          "lon": 53.196537,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4602.708316017901,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1525035421559678.jpg",
+      "gt": {
+        "lat": 50.833997189997,
+        "lon": -4.3770971399989
+      },
+      "fractus": {
+        "lat": 46.421303,
+        "lon": 53.114918,
+        "error_km": 4145.826805804446,
+        "raw": {
+          "lat": 46.421303,
+          "lon": 53.114918,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 5667.612605984852,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "187060659841282.jpg",
+      "gt": {
+        "lat": 41.001808648616,
+        "lon": -4.310391985551
+      },
+      "fractus": {
+        "lat": 45.123638,
+        "lon": 50.900585,
+        "error_km": 4421.04138077228,
+        "raw": {
+          "lat": 45.123638,
+          "lon": 50.900585,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4579.889437984091,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1568279510652997.jpg",
+      "gt": {
+        "lat": 41.165662059427,
+        "lon": -4.2699189064142
+      },
+      "fractus": {
+        "lat": 44.371326,
+        "lon": 49.196266,
+        "error_km": 4300.967239328319,
+        "raw": {
+          "lat": 44.371326,
+          "lon": 49.196266,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4597.606830122754,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "2960564374222751.jpg",
+      "gt": {
+        "lat": 41.398142581225,
+        "lon": -4.3177398280739
+      },
+      "fractus": {
+        "lat": 43.716236,
+        "lon": 52.402081,
+        "error_km": 4560.87139820246,
+        "raw": {
+          "lat": 43.716236,
+          "lon": 52.402081,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4623.743558703339,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1332837691893637.jpg",
+      "gt": {
+        "lat": 41.307555877316,
+        "lon": -3.7468081988006
+      },
+      "fractus": {
+        "lat": 47.061142,
+        "lon": 55.520531,
+        "error_km": 4654.884870171365,
+        "raw": {
+          "lat": 47.061142,
+          "lon": 55.520531,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4608.672103103076,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "470119654077812.jpg",
+      "gt": {
+        "lat": 41.19250646537,
+        "lon": -3.9934042813674
+      },
+      "fractus": {
+        "lat": 44.118923,
+        "lon": 48.799263,
+        "error_km": 4254.945933835004,
+        "raw": {
+          "lat": 44.118923,
+          "lon": 48.799263,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4598.050166695286,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1492543074956690.jpg",
+      "gt": {
+        "lat": 41.121299402081,
+        "lon": -3.7114619002146
+      },
+      "fractus": {
+        "lat": 38.060513,
+        "lon": 53.46814,
+        "error_km": 4822.637486429586,
+        "raw": {
+          "lat": 38.060513,
+          "lon": 53.46814,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4587.770844644957,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1455796661424190.jpg",
+      "gt": {
+        "lat": 41.259400276103,
+        "lon": -3.9271939552975
+      },
+      "fractus": {
+        "lat": 47.576885,
+        "lon": 53.613937,
+        "error_km": 4517.405971786852,
+        "raw": {
+          "lat": 47.576885,
+          "lon": 53.613937,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4604.869217989578,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1256738774983498.jpg",
+      "gt": {
+        "lat": 41.025533787057,
+        "lon": -3.6236246610933
+      },
+      "fractus": {
+        "lat": 36.433876,
+        "lon": 49.806705,
+        "error_km": 4590.496210441687,
+        "raw": {
+          "lat": 36.433876,
+          "lon": 49.806705,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4576.457566279145,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1542667999846268.jpg",
+      "gt": {
+        "lat": 41.340637886534,
+        "lon": -2.1581565653013
+      },
+      "fractus": {
+        "lat": 46.685532,
+        "lon": 48.449905,
+        "error_km": 4019.8159170784415,
+        "raw": {
+          "lat": 46.685532,
+          "lon": 48.449905,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4602.009774375364,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "966558177435752.jpg",
+      "gt": {
+        "lat": 41.326594253877,
+        "lon": -5.1952543743963
+      },
+      "fractus": {
+        "lat": 44.603516,
+        "lon": 51.089581,
+        "error_km": 4502.755680433504,
+        "raw": {
+          "lat": 44.603516,
+          "lon": 51.089581,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4624.99934126514,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "941507123333211.jpg",
+      "gt": {
+        "lat": 41.409315788195,
+        "lon": -5.1331512760595
+      },
+      "fractus": {
+        "lat": 41.017826,
+        "lon": 52.158176,
+        "error_km": 4701.203453270038,
+        "raw": {
+          "lat": 41.017826,
+          "lon": 52.158176,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4633.41057476307,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "768223120544631.jpg",
+      "gt": {
+        "lat": 41.213294104908,
+        "lon": -3.9416577954592
+      },
+      "fractus": {
+        "lat": 44.310478,
+        "lon": 50.541306,
+        "error_km": 4378.760675544258,
+        "raw": {
+          "lat": 44.310478,
+          "lon": 50.541306,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4599.895630353934,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1163020685131175.jpg",
+      "gt": {
+        "lat": 41.434238167024,
+        "lon": -4.4707665167561
+      },
+      "fractus": {
+        "lat": 43.835678,
+        "lon": 49.905636,
+        "error_km": 4375.212907632512,
+        "raw": {
+          "lat": 43.835678,
+          "lon": 49.905636,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4629.202802998567,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1042230856305478.jpg",
+      "gt": {
+        "lat": 41.049403575261,
+        "lon": -5.3387558920004
+      },
+      "fractus": {
+        "lat": 39.911354,
+        "lon": 52.74033,
+        "error_km": 4820.02896827073,
+        "raw": {
+          "lat": 39.911354,
+          "lon": 52.74033,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4596.139587117491,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "5358917107521485.jpg",
+      "gt": {
+        "lat": 41.3026352,
+        "lon": -4.028059
+      },
+      "fractus": {
+        "lat": 44.173447,
+        "lon": 49.10923,
+        "error_km": 4275.289186420816,
+        "raw": {
+          "lat": 44.173447,
+          "lon": 49.10923,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4610.533659559315,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "3922806957816062.jpg",
+      "gt": {
+        "lat": 41.175952011114,
+        "lon": -4.9360537173207
+      },
+      "fractus": {
+        "lat": 38.060513,
+        "lon": 53.46814,
+        "error_km": 4919.664502962976,
+        "raw": {
+          "lat": 38.060513,
+          "lon": 53.46814,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4605.5109484188715,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "302890084657230.jpg",
+      "gt": {
+        "lat": 41.393133860943,
+        "lon": -5.1434506884292
+      },
+      "fractus": {
+        "lat": 44.291702,
+        "lon": 57.608116,
+        "error_km": 4999.370883582327,
+        "raw": {
+          "lat": 44.291702,
+          "lon": 57.608116,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4631.743370386432,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1815186425924872.jpg",
+      "gt": {
+        "lat": 41.266518664979,
+        "lon": -3.9447558484159
+      },
+      "fractus": {
+        "lat": 45.529587,
+        "lon": 56.972454,
+        "error_km": 4825.454216829776,
+        "raw": {
+          "lat": 45.529587,
+          "lon": 56.972454,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4605.808787138973,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "949765229982332.jpg",
+      "gt": {
+        "lat": 41.453001264901,
+        "lon": -4.5255655167843
+      },
+      "fractus": {
+        "lat": 44.603516,
+        "lon": 51.089581,
+        "error_km": 4446.010215604495,
+        "raw": {
+          "lat": 44.603516,
+          "lon": 51.089581,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4631.813686196048,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "31282080898073546.jpg",
+      "gt": {
+        "lat": 41.52091853233,
+        "lon": -5.2098472848121
+      },
+      "fractus": {
+        "lat": 42.019241,
+        "lon": 58.387642,
+        "error_km": 5146.670547279593,
+        "raw": {
+          "lat": 42.019241,
+          "lon": 58.387642,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4646.571371465688,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "3856698307907429.jpg",
+      "gt": {
+        "lat": 41.33066057595,
+        "lon": -4.0895688704837
+      },
+      "fractus": {
+        "lat": 47.615925,
+        "lon": 52.867943,
+        "error_km": 4469.942275309584,
+        "raw": {
+          "lat": 47.615925,
+          "lon": 52.867943,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4614.181049097975,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "404561582483813.jpg",
+      "gt": {
+        "lat": 41.288924428137,
+        "lon": -3.9986926925393
+      },
+      "fractus": {
+        "lat": 44.118923,
+        "lon": 48.799263,
+        "error_km": 4251.244651962509,
+        "raw": {
+          "lat": 44.118923,
+          "lon": 48.799263,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4608.758271697698,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1945640278945530.jpg",
+      "gt": {
+        "lat": 41.612707844749,
+        "lon": -4.7952976703679
+      },
+      "fractus": {
+        "lat": 44.078468,
+        "lon": 57.820301,
+        "error_km": 4986.554630265291,
+        "raw": {
+          "lat": 44.078468,
+          "lon": 57.820301,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4652.179211784025,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1110296944345183.jpg",
+      "gt": {
+        "lat": 41.59412561324,
+        "lon": -5.1151954822257
+      },
+      "fractus": {
+        "lat": 42.867908,
+        "lon": 55.10828,
+        "error_km": 4851.218922481494,
+        "raw": {
+          "lat": 42.867908,
+          "lon": 55.10828,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4653.5743653813015,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1781879395747177.jpg",
+      "gt": {
+        "lat": 41.136479441099,
+        "lon": -3.8154580232928
+      },
+      "fractus": {
+        "lat": 36.433876,
+        "lon": 49.806705,
+        "error_km": 4603.752702574456,
+        "raw": {
+          "lat": 36.433876,
+          "lon": 49.806705,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4590.317164738811,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1184325133293222.jpg",
+      "gt": {
+        "lat": 41.231567586295,
+        "lon": -4.1112696655207
+      },
+      "fractus": {
+        "lat": 44.027851,
+        "lon": 48.103569,
+        "error_km": 4211.149925011821,
+        "raw": {
+          "lat": 44.027851,
+          "lon": 48.103569,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4603.422757063219,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1301527001327120.jpg",
+      "gt": {
+        "lat": 41.295762071305,
+        "lon": -3.9322326529258
+      },
+      "fractus": {
+        "lat": 43.702209,
+        "lon": 52.801453,
+        "error_km": 4566.846403176866,
+        "raw": {
+          "lat": 43.702209,
+          "lon": 52.801453,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4608.934336145854,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "237612591475604.jpg",
+      "gt": {
+        "lat": 41.624968332553,
+        "lon": -5.1706607412931
+      },
+      "fractus": {
+        "lat": 44.118923,
+        "lon": 48.799263,
+        "error_km": 4327.221695310725,
+        "raw": {
+          "lat": 44.118923,
+          "lon": 48.799263,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4657.5921898370625,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "531917787820322.jpg",
+      "gt": {
+        "lat": 41.290368417012,
+        "lon": -4.3229163811816
+      },
+      "fractus": {
+        "lat": 43.688904,
+        "lon": 53.753399,
+        "error_km": 4670.566263207915,
+        "raw": {
+          "lat": 43.688904,
+          "lon": 53.753399,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4611.8863137129,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "226536398806433.jpg",
+      "gt": {
+        "lat": 41.604111741038,
+        "lon": -5.1348768504597
+      },
+      "fractus": {
+        "lat": 47.211716,
+        "lon": 50.260059,
+        "error_km": 4350.803827624742,
+        "raw": {
+          "lat": 47.211716,
+          "lon": 50.260059,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4654.893870184309,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1365926753791692.jpg",
+      "gt": {
+        "lat": 41.049923749545,
+        "lon": -4.7017746069023
+      },
+      "fractus": {
+        "lat": 48.384552,
+        "lon": 52.239384,
+        "error_km": 4466.211496231301,
+        "raw": {
+          "lat": 48.384552,
+          "lon": 52.239384,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4589.115100994718,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "397614724682548.jpg",
+      "gt": {
+        "lat": 41.055759174407,
+        "lon": -5.1960842917764
+      },
+      "fractus": {
+        "lat": 47.487152,
+        "lon": 53.06778,
+        "error_km": 4583.548960705091,
+        "raw": {
+          "lat": 47.487152,
+          "lon": 53.06778,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4595.17633503076,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "177502120926539.jpg",
+      "gt": {
+        "lat": 41.290315022522,
+        "lon": -4.3282645418391
+      },
+      "fractus": {
+        "lat": 46.182522,
+        "lon": 54.706699,
+        "error_km": 4663.995272426176,
+        "raw": {
+          "lat": 46.182522,
+          "lon": 54.706699,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4611.931301291672,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "2051456568991980.jpg",
+      "gt": {
+        "lat": 41.082676737105,
+        "lon": -3.6957450087614
+      },
+      "fractus": {
+        "lat": 49.016449,
+        "lon": 49.675343,
+        "error_km": 4194.147094261105,
+        "raw": {
+          "lat": 49.016449,
+          "lon": 49.675343,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4583.36781801714,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "497935031551380.jpg",
+      "gt": {
+        "lat": 41.073126826409,
+        "lon": -4.5865512648785
+      },
+      "fractus": {
+        "lat": 47.353897,
+        "lon": 52.173851,
+        "error_km": 4475.698154394127,
+        "raw": {
+          "lat": 47.353897,
+          "lon": 52.173851,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4590.48999372012,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "971199875174980.jpg",
+      "gt": {
+        "lat": 41.153182805759,
+        "lon": -4.0108054850868
+      },
+      "fractus": {
+        "lat": 40.933121,
+        "lon": 55.945431,
+        "error_km": 4923.591764574001,
+        "raw": {
+          "lat": 40.933121,
+          "lon": 55.945431,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4593.85597320868,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "4042216325893510.jpg",
+      "gt": {
+        "lat": 43.227381092448,
+        "lon": 1.5533967255849
+      },
+      "fractus": {
+        "lat": 38.272156,
+        "lon": 51.537746,
+        "error_km": 4183.515684484332,
+        "raw": {
+          "lat": 38.272156,
+          "lon": 51.537746,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4809.162516443062,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "162705755855524.jpg",
+      "gt": {
+        "lat": 41.370590438415,
+        "lon": -4.4965939799074
+      },
+      "fractus": {
+        "lat": 45.123638,
+        "lon": 50.900585,
+        "error_km": 4417.938067647162,
+        "raw": {
+          "lat": 45.123638,
+          "lon": 50.900585,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4622.4283598664415,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "242685110947569.jpg",
+      "gt": {
+        "lat": 41.175342715157,
+        "lon": -4.9133344442402
+      },
+      "fractus": {
+        "lat": 46.794296,
+        "lon": 57.130741,
+        "error_km": 4873.132460634945,
+        "raw": {
+          "lat": 46.794296,
+          "lon": 57.130741,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4605.197013741056,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "318130223053024.jpg",
+      "gt": {
+        "lat": 41.212456940383,
+        "lon": -3.9468816163907
+      },
+      "fractus": {
+        "lat": 44.122597,
+        "lon": 56.491028,
+        "error_km": 4839.354986808697,
+        "raw": {
+          "lat": 44.122597,
+          "lon": 56.491028,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4599.84852723234,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1476514073407524.jpg",
+      "gt": {
+        "lat": 41.59096440873,
+        "lon": -4.8314242621369
+      },
+      "fractus": {
+        "lat": 39.103592,
+        "lon": 52.099159,
+        "error_km": 4743.788134096905,
+        "raw": {
+          "lat": 39.103592,
+          "lon": 52.099159,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4650.1586115582495,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "764766824195337.jpg",
+      "gt": {
+        "lat": 41.247103305718,
+        "lon": -5.2940321661727
+      },
+      "fractus": {
+        "lat": 46.952805,
+        "lon": 51.034615,
+        "error_km": 4444.621074010271,
+        "raw": {
+          "lat": 46.952805,
+          "lon": 51.034615,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4617.381864534502,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1686156072072493.jpg",
+      "gt": {
+        "lat": 41.300767449133,
+        "lon": -3.6661932234149
+      },
+      "fractus": {
+        "lat": 43.339024,
+        "lon": 52.703739,
+        "error_km": 4550.512275482614,
+        "raw": {
+          "lat": 43.339024,
+          "lon": 52.703739,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4607.263137476468,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1712278613051589.jpg",
+      "gt": {
+        "lat": 41.088881527776,
+        "lon": -4.126303419848
+      },
+      "fractus": {
+        "lat": 47.701485,
+        "lon": 50.872391,
+        "error_km": 4337.452654555141,
+        "raw": {
+          "lat": 47.701485,
+          "lon": 50.872391,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4587.787772668789,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "535076621589816.jpg",
+      "gt": {
+        "lat": 41.442839692293,
+        "lon": -4.4105440078055
+      },
+      "fractus": {
+        "lat": 43.489437,
+        "lon": 55.563457,
+        "error_km": 4815.868842500037,
+        "raw": {
+          "lat": 43.489437,
+          "lon": 55.563457,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4629.567672388984,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "323448885943270.jpg",
+      "gt": {
+        "lat": 41.032235947544,
+        "lon": -4.6881801090154
+      },
+      "fractus": {
+        "lat": 45.421181,
+        "lon": 54.402843,
+        "error_km": 4704.06940782667,
+        "raw": {
+          "lat": 45.421181,
+          "lon": 54.402843,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4587.022006676333,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1748405745945112.jpg",
+      "gt": {
+        "lat": 41.396421931317,
+        "lon": -3.9649086885786
+      },
+      "fractus": {
+        "lat": 43.339024,
+        "lon": 52.703739,
+        "error_km": 4569.509419136138,
+        "raw": {
+          "lat": 43.339024,
+          "lon": 52.703739,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4620.350082041356,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1837485513855536.jpg",
+      "gt": {
+        "lat": 41.546671016404,
+        "lon": -4.8864027991358
+      },
+      "fractus": {
+        "lat": 45.932777,
+        "lon": 51.475697,
+        "error_km": 4459.259030479221,
+        "raw": {
+          "lat": 45.932777,
+          "lon": 51.475697,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4645.8545595452715,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "206180271070804.jpg",
+      "gt": {
+        "lat": 41.013978915474,
+        "lon": -4.6707443130002
+      },
+      "fractus": {
+        "lat": 48.279301,
+        "lon": 49.523067,
+        "error_km": 4270.844213303829,
+        "raw": {
+          "lat": 48.279301,
+          "lon": 49.523067,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4584.826510128873,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "642013918676386.jpg",
+      "gt": {
+        "lat": 41.288294024947,
+        "lon": -4.1009861915754
+      },
+      "fractus": {
+        "lat": 45.421181,
+        "lon": 54.402843,
+        "error_km": 4647.38439953057,
+        "raw": {
+          "lat": 45.421181,
+          "lon": 54.402843,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4609.600393112754,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "2274820486268468.jpg",
+      "gt": {
+        "lat": 41.03133450143,
+        "lon": -3.8271638805769
+      },
+      "fractus": {
+        "lat": 45.932777,
+        "lon": 51.475697,
+        "error_km": 4405.025292389368,
+        "raw": {
+          "lat": 45.932777,
+          "lon": 51.475697,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4578.784698745351,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "490202483354240.jpg",
+      "gt": {
+        "lat": 41.558416282928,
+        "lon": -4.6676821384863
+      },
+      "fractus": {
+        "lat": 43.793747,
+        "lon": 54.263367,
+        "error_km": 4720.377937647664,
+        "raw": {
+          "lat": 43.793747,
+          "lon": 54.263367,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4644.875292291893,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "4570146642999594.jpg",
+      "gt": {
+        "lat": 41.420681549429,
+        "lon": -5.1244639347697
+      },
+      "fractus": {
+        "lat": 52.278282,
+        "lon": 52.843899,
+        "error_km": 4441.858687197171,
+        "raw": {
+          "lat": 52.278282,
+          "lon": 52.843899,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4634.565516961049,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1820907761423410.jpg",
+      "gt": {
+        "lat": 41.177124516045,
+        "lon": -4.9344982944588
+      },
+      "fractus": {
+        "lat": 38.272156,
+        "lon": 51.537746,
+        "error_km": 4754.847021287816,
+        "raw": {
+          "lat": 38.272156,
+          "lon": 51.537746,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4605.623289122777,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "2509034319496033.jpg",
+      "gt": {
+        "lat": 41.544764099057,
+        "lon": -5.3033745264952
+      },
+      "fractus": {
+        "lat": 42.867908,
+        "lon": 55.10828,
+        "error_km": 4867.77679196476,
+        "raw": {
+          "lat": 42.867908,
+          "lon": 55.10828,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4650.267698169626,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1069338120261181.jpg",
+      "gt": {
+        "lat": 41.155394627369,
+        "lon": -4.5249123383039
+      },
+      "fractus": {
+        "lat": 42.883717,
+        "lon": 55.457073,
+        "error_km": 4851.109422931443,
+        "raw": {
+          "lat": 42.883717,
+          "lon": 55.457073,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4598.950157393752,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "2844184729221951.jpg",
+      "gt": {
+        "lat": 41.891113077318,
+        "lon": 1.4406536639953
+      },
+      "fractus": {
+        "lat": 42.277222,
+        "lon": 46.439747,
+        "error_km": 3669.557728173171,
+        "raw": {
+          "lat": 42.277222,
+          "lon": 46.439747,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4660.33042281697,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1300248041902751.jpg",
+      "gt": {
+        "lat": 41.543000641655,
+        "lon": -5.4128200450383
+      },
+      "fractus": {
+        "lat": 52.5709,
+        "lon": 53.479702,
+        "error_km": 4491.111638720904,
+        "raw": {
+          "lat": 52.5709,
+          "lon": 53.479702,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4651.348985648788,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1828789644725709.jpg",
+      "gt": {
+        "lat": 41.532112599493,
+        "lon": -4.9052300511184
+      },
+      "fractus": {
+        "lat": 47.750969,
+        "lon": 53.778538,
+        "error_km": 4581.337740829955,
+        "raw": {
+          "lat": 47.750969,
+          "lon": 53.778538,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4644.449811865922,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "479459256601695.jpg",
+      "gt": {
+        "lat": 41.403464799241,
+        "lon": -5.1378381148908
+      },
+      "fractus": {
+        "lat": 46.952805,
+        "lon": 51.034615,
+        "error_km": 4424.985685212012,
+        "raw": {
+          "lat": 46.952805,
+          "lon": 51.034615,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4632.81852873715,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "310228497212523.jpg",
+      "gt": {
+        "lat": 41.153972753141,
+        "lon": -4.2660686357824
+      },
+      "fractus": {
+        "lat": 46.323269,
+        "lon": 49.017677,
+        "error_km": 4237.653835985924,
+        "raw": {
+          "lat": 46.323269,
+          "lon": 49.017677,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4596.278996770134,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "135634945223272.jpg",
+      "gt": {
+        "lat": 41.397998578151,
+        "lon": -4.3129386169162
+      },
+      "fractus": {
+        "lat": 39.071835,
+        "lon": 46.981861,
+        "error_km": 4297.756013799351,
+        "raw": {
+          "lat": 39.071835,
+          "lon": 46.981861,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4623.68224589561,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "897805520951389.jpg",
+      "gt": {
+        "lat": 41.275187929764,
+        "lon": -3.601916874125
+      },
+      "fractus": {
+        "lat": 46.749561,
+        "lon": 47.563381,
+        "error_km": 4063.5075339933355,
+        "raw": {
+          "lat": 46.749561,
+          "lon": 47.563381,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4603.917368518783,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "297346525333003.jpg",
+      "gt": {
+        "lat": 41.049454512722,
+        "lon": -5.3874499143813
+      },
+      "fractus": {
+        "lat": 40.535236,
+        "lon": 53.33997,
+        "error_km": 4846.588945966004,
+        "raw": {
+          "lat": 40.535236,
+          "lon": 53.33997,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4596.723041607362,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "1436769703529767.jpg",
+      "gt": {
+        "lat": 41.144210352906,
+        "lon": -4.0607314979191
+      },
+      "fractus": {
+        "lat": 44.371326,
+        "lon": 49.196266,
+        "error_km": 4285.80894428473,
+        "raw": {
+          "lat": 44.371326,
+          "lon": 49.196266,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4593.309637790451,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "478456090132894.jpg",
+      "gt": {
+        "lat": 41.307741770415,
+        "lon": -3.6120202779242
+      },
+      "fractus": {
+        "lat": 45.421181,
+        "lon": 54.402843,
+        "error_km": 4609.729113599076,
+        "raw": {
+          "lat": 45.421181,
+          "lon": 54.402843,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4607.601061594143,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "684791133592119.jpg",
+      "gt": {
+        "lat": 41.488962850579,
+        "lon": -5.0248076209893
+      },
+      "fractus": {
+        "lat": 46.794296,
+        "lon": 57.130741,
+        "error_km": 4864.349607627888,
+        "raw": {
+          "lat": 46.794296,
+          "lon": 57.130741,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4640.986531017935,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    },
+    {
+      "filename": "147774254029196.jpg",
+      "gt": {
+        "lat": 41.404382461651,
+        "lon": -4.4268426071178
+      },
+      "fractus": {
+        "lat": 47.211716,
+        "lon": 50.260059,
+        "error_km": 4308.882892429648,
+        "raw": {
+          "lat": 47.211716,
+          "lon": 50.260059,
+          "score": 0.8,
+          "source": "fallback"
+        }
+      },
+      "plonk": {
+        "lat": 0.0,
+        "lon": 0.0,
+        "error_km": 4625.477935968483,
+        "raw": {
+          "ok": true,
+          "lat": 0.0,
+          "lon": 0.0,
+          "raw": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "info": "Préprocessing manquant, modèle chargé correctement"
+          }
+        }
+      }
+    }
+  ]
+}

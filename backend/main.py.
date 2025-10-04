@@ -1,0 +1,151 @@
+from __future__ import annotations
+import os
+import time
+from typing import List, Optional, Union
+
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel, Field
+
+# --- Fractus import ---
+try:
+    from fractus import compute_fractus_scores  # doit exister dans fractus.py
+except Exception:
+    def compute_fractus_scores(sequence: List[int], window: int, pattern: str) -> List[float]:
+        if not sequence:
+            return []
+        max_val = max(sequence) or 1
+        return [x / max_val for x in sequence]
+
+# --- OpenAI (optionnel) ---
+_openai_key = os.getenv("OPENAI_API_KEY")
+_openai_model = os.getenv("OPENAI_MODEL", "gpt-4o")
+
+try:
+    if _openai_key:
+        from openai import OpenAI
+        _oa_client = OpenAI()
+        print(f"✅ OpenAI activé avec le modèle : {_openai_model}")
+    else:
+        _oa_client = None
+        print("⚠️  Pas de clé OpenAI → mode local uniquement.")
+except Exception as e:
+    _oa_client = None
+    print(f"⚠️  Impossible d'initialiser OpenAI ({e}) → fallback local.")
+
+# --- API ---
+app = FastAPI(title="Fractus × IA", version="0.2.0")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# --- Models ---
+class AnomalyRequest(BaseModel):
+    data: Union[str, List[Union[int, float]]]
+    pattern: str = ""
+    window: int = 32
+
+class ScoreResponse(BaseModel):
+    n: int
+    window: int
+    pattern: str
+    scores: List[float]
+    elapsed_ms: float
+
+class ExplainRequest(BaseModel):
+    data: Union[str, List[Union[int, float]]]
+    pattern: str = ""
+    window: int = 32
+    scores: Optional[List[float]] = None
+
+class ExplainResponse(BaseModel):
+    explanation: str
+    used_openai: bool
+    model: Optional[str] = None
+
+# --- Utils ---
+def _parse_sequence(raw: Union[str, List[Union[int, float]]]) -> List[int]:
+    if isinstance(raw, list):
+        return [int(round(float(x))) for x in raw]
+
+    s = raw.strip()
+    try:
+        parts = [p for p in s.replace(";", " ").replace(",", " ").split() if p]
+        return [int(round(float(p))) for p in parts]
+    except Exception:
+        return list(s.encode("utf-8", errors="ignore"))
+
+# --- Routes ---
+@app.get("/")
+def root():
+    return {"message": "Bienvenue sur l’API Fractus × IA 🚀"}
+
+@app.get("/health")
+def health():
+    return {"status": "ok", "openai": bool(_oa_client is not None)}
+
+@app.post("/anomaly/score", response_model=ScoreResponse)
+def anomaly_score(req: AnomalyRequest):
+    seq = _parse_sequence(req.data)
+    if len(seq) < 2:
+        raise HTTPException(status_code=400, detail="Séquence trop courte.")
+
+    t0 = time.perf_counter()
+    scores = compute_fractus_scores(seq, req.window, req.pattern or "")
+    elapsed = (time.perf_counter() - t0) * 1000.0
+
+    return ScoreResponse(
+        n=len(seq),
+        window=req.window,
+        pattern=req.pattern or "",
+        scores=[float(x) for x in scores],
+        elapsed_ms=elapsed,
+    )
+
+@app.post("/anomaly/explain", response_model=ExplainResponse)
+def anomaly_explain(req: ExplainRequest):
+    seq = _parse_sequence(req.data)
+    scores = req.scores or compute_fractus_scores(seq, req.window, req.pattern or "")
+
+    if not scores:
+        return ExplainResponse(
+            explanation="⚠️ Aucune donnée détectée → pas d’explication possible.",
+            used_openai=False,
+            model=None,
+        )
+
+    if _oa_client is None:
+        top_idx = int(max(range(len(scores)), key=lambda i: scores[i]))
+        return ExplainResponse(
+            explanation=f"Mode local : pic détecté vers l’index {top_idx}, score ≈ {scores[top_idx]:.3f}.",
+            used_openai=False,
+            model=None,
+        )
+
+    try:
+        msg = (
+            "Tu es une IA qui analyse des scores d’anomalie (méthode Fractus).\n"
+            f"Fenêtre={req.window}, motif='{req.pattern}', taille séquence={len(scores)}.\n"
+            f"Extrait scores={scores[:64]}{' ...' if len(scores) > 64 else ''}\n"
+            "Explique en français les zones suspectes, les hypothèses possibles, et donne une conclusion actionnable."
+        )
+        chat = _oa_client.chat.completions.create(
+            model=_openai_model,
+            messages=[{"role": "user", "content": msg}],
+            temperature=0.2,
+        )
+        explanation = chat.choices[0].message.content.strip()
+        return ExplainResponse(explanation=explanation, used_openai=True, model=_openai_model)
+    except Exception as e:
+        top_idx = int(max(range(len(scores)), key=lambda i: scores[i]))
+        return ExplainResponse(
+            explanation=f"⚠️ Erreur OpenAI : {e}. Fallback → max score {scores[top_idx]:.3f} à l’index {top_idx}.",
+            used_openai=False,
+            model=None,
+        )
+

@@ -1,0 +1,1402 @@
+[
+  {
+    "filename": "1990306954842332.jpg",
+    "fractus": {
+      "lat": 44.921165,
+      "lon": 52.669273,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 76.10264,
+      "lon": -65.55842,
+      "confidence": 0.049
+    }
+  },
+  {
+    "filename": "5416740421732620.jpg",
+    "fractus": {
+      "lat": 46.114349,
+      "lon": 50.365025,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 28.70053,
+      "lon": 9.29951,
+      "confidence": 0.746
+    }
+  },
+  {
+    "filename": "2031343324328186.jpg",
+    "fractus": {
+      "lat": 40.147526,
+      "lon": 55.906528,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -2.89193,
+      "lon": 148.96143,
+      "confidence": 0.203
+    }
+  },
+  {
+    "filename": "3900201580033984.jpg",
+    "fractus": {
+      "lat": 47.743225,
+      "lon": 52.894024,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -46.10962,
+      "lon": -132.14394,
+      "confidence": 0.249
+    }
+  },
+  {
+    "filename": "3357851614441343.jpg",
+    "fractus": {
+      "lat": 44.145626,
+      "lon": 57.341991,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 45.61353,
+      "lon": -73.02231,
+      "confidence": 0.738
+    }
+  },
+  {
+    "filename": "803696323886311.jpg",
+    "fractus": {
+      "lat": 44.571293,
+      "lon": 54.34341,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -13.80858,
+      "lon": -5.98002,
+      "confidence": 0.422
+    }
+  },
+  {
+    "filename": "3763910120404780.jpg",
+    "fractus": {
+      "lat": 47.743225,
+      "lon": 52.894024,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 52.4897,
+      "lon": 2.19806,
+      "confidence": 0.958
+    }
+  },
+  {
+    "filename": "693780474676708.jpg",
+    "fractus": {
+      "lat": 43.479221,
+      "lon": 54.906906,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -43.25462,
+      "lon": 144.574,
+      "confidence": 0.84
+    }
+  },
+  {
+    "filename": "528357238322884.jpg",
+    "fractus": {
+      "lat": 50.757458,
+      "lon": 53.712135,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -41.4307,
+      "lon": -77.75239,
+      "confidence": 0.626
+    }
+  },
+  {
+    "filename": "304682381070693.jpg",
+    "fractus": {
+      "lat": 45.530773,
+      "lon": 53.700012,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -57.57695,
+      "lon": 110.15658,
+      "confidence": 0.186
+    }
+  },
+  {
+    "filename": "1331217488144473.jpg",
+    "fractus": {
+      "lat": 51.242455,
+      "lon": 45.42691,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -15.34564,
+      "lon": 94.79513,
+      "confidence": 0.449
+    }
+  },
+  {
+    "filename": "947759173268078.jpg",
+    "fractus": {
+      "lat": 45.426636,
+      "lon": 48.812172,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 75.59353,
+      "lon": 119.74671,
+      "confidence": 0.196
+    }
+  },
+  {
+    "filename": "359653102674029.jpg",
+    "fractus": {
+      "lat": 43.4198,
+      "lon": 53.221458,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 72.49461,
+      "lon": -72.9715,
+      "confidence": 0.413
+    }
+  },
+  {
+    "filename": "761826731145243.jpg",
+    "fractus": {
+      "lat": 45.530773,
+      "lon": 53.700012,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -31.13093,
+      "lon": 99.20461,
+      "confidence": 0.723
+    }
+  },
+  {
+    "filename": "542154543453735.jpg",
+    "fractus": {
+      "lat": 45.530773,
+      "lon": 53.700012,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -75.86332,
+      "lon": 177.66688,
+      "confidence": 0.937
+    }
+  },
+  {
+    "filename": "2738170596492916.jpg",
+    "fractus": {
+      "lat": 46.959766,
+      "lon": 49.800911,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -31.08325,
+      "lon": 118.49478,
+      "confidence": 0.02
+    }
+  },
+  {
+    "filename": "1675162869351930.jpg",
+    "fractus": {
+      "lat": 39.777649,
+      "lon": 50.276146,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 51.22924,
+      "lon": 50.08043,
+      "confidence": 0.757
+    }
+  },
+  {
+    "filename": "370253391072193.jpg",
+    "fractus": {
+      "lat": 42.45718,
+      "lon": 53.734512,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -51.90301,
+      "lon": -127.05433,
+      "confidence": 0.037
+    }
+  },
+  {
+    "filename": "29586290614295307.jpg",
+    "fractus": {
+      "lat": 45.544842,
+      "lon": 54.237915,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -87.09857,
+      "lon": 5.55703,
+      "confidence": 0.901
+    }
+  },
+  {
+    "filename": "3950288521721605.jpg",
+    "fractus": {
+      "lat": 45.771252,
+      "lon": 56.08802,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 30.10471,
+      "lon": 95.23755,
+      "confidence": 0.797
+    }
+  },
+  {
+    "filename": "1695316681107050.jpg",
+    "fractus": {
+      "lat": 45.444458,
+      "lon": 47.885967,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -10.96019,
+      "lon": -82.56802,
+      "confidence": 0.749
+    }
+  },
+  {
+    "filename": "312499327194919.jpg",
+    "fractus": {
+      "lat": 46.997791,
+      "lon": 54.730797,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 75.00618,
+      "lon": -48.02868,
+      "confidence": 0.726
+    }
+  },
+  {
+    "filename": "1777336279690549.jpg",
+    "fractus": {
+      "lat": 46.969215,
+      "lon": 50.322742,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -58.95141,
+      "lon": 113.275,
+      "confidence": 0.764
+    }
+  },
+  {
+    "filename": "2107418036065886.jpg",
+    "fractus": {
+      "lat": 44.044476,
+      "lon": 48.441536,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 55.89191,
+      "lon": 77.55606,
+      "confidence": 0.845
+    }
+  },
+  {
+    "filename": "1327592997616048.jpg",
+    "fractus": {
+      "lat": 46.959766,
+      "lon": 49.800911,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 63.3717,
+      "lon": -136.57536,
+      "confidence": 0.729
+    }
+  },
+  {
+    "filename": "1848768385602328.jpg",
+    "fractus": {
+      "lat": 46.959766,
+      "lon": 49.800911,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 63.05327,
+      "lon": -75.62249,
+      "confidence": 0.77
+    }
+  },
+  {
+    "filename": "5731207970252590.jpg",
+    "fractus": {
+      "lat": 45.771252,
+      "lon": 56.08802,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 71.32928,
+      "lon": -74.28571,
+      "confidence": 0.578
+    }
+  },
+  {
+    "filename": "2016072735519176.jpg",
+    "fractus": {
+      "lat": 44.145626,
+      "lon": 57.341991,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 72.01643,
+      "lon": -107.17627,
+      "confidence": 0.609
+    }
+  },
+  {
+    "filename": "1297302528641039.jpg",
+    "fractus": {
+      "lat": 44.145626,
+      "lon": 57.341991,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -88.64061,
+      "lon": 21.75877,
+      "confidence": 0.107
+    }
+  },
+  {
+    "filename": "7264584583649915.jpg",
+    "fractus": {
+      "lat": 45.858913,
+      "lon": 53.368885,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 41.90654,
+      "lon": -88.4727,
+      "confidence": 0.767
+    }
+  },
+  {
+    "filename": "2408287296017628.jpg",
+    "fractus": {
+      "lat": 39.777649,
+      "lon": 50.276146,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -3.71994,
+      "lon": -91.95219,
+      "confidence": 0.423
+    }
+  },
+  {
+    "filename": "459214135148453.jpg",
+    "fractus": {
+      "lat": 46.675877,
+      "lon": 51.431534,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 9.30128,
+      "lon": -132.12862,
+      "confidence": 0.814
+    }
+  },
+  {
+    "filename": "4645416845474706.jpg",
+    "fractus": {
+      "lat": 45.119076,
+      "lon": 50.249668,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 69.30969,
+      "lon": 78.14697,
+      "confidence": 0.483
+    }
+  },
+  {
+    "filename": "984811580047085.jpg",
+    "fractus": {
+      "lat": 53.765015,
+      "lon": 47.214203,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -18.18621,
+      "lon": 173.04717,
+      "confidence": 0.159
+    }
+  },
+  {
+    "filename": "319057233061116.jpg",
+    "fractus": {
+      "lat": 46.575512,
+      "lon": 45.713043,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -15.78713,
+      "lon": -104.77735,
+      "confidence": 0.487
+    }
+  },
+  {
+    "filename": "1021226235719054.jpg",
+    "fractus": {
+      "lat": 43.247952,
+      "lon": 46.795692,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 76.13471,
+      "lon": 42.00006,
+      "confidence": 0.993
+    }
+  },
+  {
+    "filename": "2101616763575262.jpg",
+    "fractus": {
+      "lat": 42.098206,
+      "lon": 49.828362,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -40.02332,
+      "lon": 146.19423,
+      "confidence": 0.779
+    }
+  },
+  {
+    "filename": "931626988000536.jpg",
+    "fractus": {
+      "lat": 46.976639,
+      "lon": 51.117657,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -36.68631,
+      "lon": 115.69581,
+      "confidence": 0.923
+    }
+  },
+  {
+    "filename": "1347287945646950.jpg",
+    "fractus": {
+      "lat": 46.066517,
+      "lon": 54.19492,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 36.1109,
+      "lon": -136.38214,
+      "confidence": 0.044
+    }
+  },
+  {
+    "filename": "1464426400643870.jpg",
+    "fractus": {
+      "lat": 45.444458,
+      "lon": 47.885967,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 9.47259,
+      "lon": 86.69474,
+      "confidence": 0.622
+    }
+  },
+  {
+    "filename": "2856728477975752.jpg",
+    "fractus": {
+      "lat": 46.880295,
+      "lon": 55.531212,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -25.79819,
+      "lon": -157.24657,
+      "confidence": 0.021
+    }
+  },
+  {
+    "filename": "5551186604954469.jpg",
+    "fractus": {
+      "lat": 48.593914,
+      "lon": 48.152378,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -83.24748,
+      "lon": 127.55406,
+      "confidence": 0.318
+    }
+  },
+  {
+    "filename": "365777589634881.jpg",
+    "fractus": {
+      "lat": 42.899265,
+      "lon": 50.46492,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -86.76359,
+      "lon": -94.9869,
+      "confidence": 0.807
+    }
+  },
+  {
+    "filename": "4105515172846372.jpg",
+    "fractus": {
+      "lat": 51.242455,
+      "lon": 45.42691,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -17.47092,
+      "lon": -134.67941,
+      "confidence": 0.716
+    }
+  },
+  {
+    "filename": "1527703654392539.jpg",
+    "fractus": {
+      "lat": 46.01791,
+      "lon": 53.851479,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 79.77948,
+      "lon": 5.10888,
+      "confidence": 0.843
+    }
+  },
+  {
+    "filename": "1380910909529520.jpg",
+    "fractus": {
+      "lat": 47.137043,
+      "lon": 49.273048,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 89.42498,
+      "lon": 142.29048,
+      "confidence": 0.582
+    }
+  },
+  {
+    "filename": "986671048735404.jpg",
+    "fractus": {
+      "lat": 46.470337,
+      "lon": 47.072456,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 85.52687,
+      "lon": 125.52458,
+      "confidence": 0.851
+    }
+  },
+  {
+    "filename": "2578171455810722.jpg",
+    "fractus": {
+      "lat": 44.044476,
+      "lon": 48.441536,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -9.7114,
+      "lon": 145.17141,
+      "confidence": 0.564
+    }
+  },
+  {
+    "filename": "562740926552728.jpg",
+    "fractus": {
+      "lat": 50.757458,
+      "lon": 53.712135,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 0.61003,
+      "lon": -49.63262,
+      "confidence": 0.605
+    }
+  },
+  {
+    "filename": "138246888542760.jpg",
+    "fractus": {
+      "lat": 46.470337,
+      "lon": 47.072456,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 2.90115,
+      "lon": 100.74807,
+      "confidence": 0.372
+    }
+  },
+  {
+    "filename": "2833674750277757.jpg",
+    "fractus": {
+      "lat": 46.066517,
+      "lon": 54.19492,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -17.79915,
+      "lon": -171.96223,
+      "confidence": 0.906
+    }
+  },
+  {
+    "filename": "2135378570240625.jpg",
+    "fractus": {
+      "lat": 42.098206,
+      "lon": 49.828362,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -54.57951,
+      "lon": 68.95593,
+      "confidence": 0.183
+    }
+  },
+  {
+    "filename": "777530086485327.jpg",
+    "fractus": {
+      "lat": 46.470337,
+      "lon": 47.072456,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -16.17587,
+      "lon": 14.21015,
+      "confidence": 0.232
+    }
+  },
+  {
+    "filename": "1517096105952028.jpg",
+    "fractus": {
+      "lat": 51.242455,
+      "lon": 45.42691,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 0.13196,
+      "lon": 33.74754,
+      "confidence": 0.841
+    }
+  },
+  {
+    "filename": "923163602953477.jpg",
+    "fractus": {
+      "lat": 44.571293,
+      "lon": 54.34341,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 89.39705,
+      "lon": 32.00124,
+      "confidence": 0.208
+    }
+  },
+  {
+    "filename": "3569611966597649.jpg",
+    "fractus": {
+      "lat": 44.631546,
+      "lon": 50.272736,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -38.53382,
+      "lon": -52.90729,
+      "confidence": 0.196
+    }
+  },
+  {
+    "filename": "175180404503553.jpg",
+    "fractus": {
+      "lat": 40.904503,
+      "lon": 48.424377,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -43.88075,
+      "lon": -179.59866,
+      "confidence": 0.254
+    }
+  },
+  {
+    "filename": "2303046533421593.jpg",
+    "fractus": {
+      "lat": 40.147526,
+      "lon": 55.906528,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -28.59824,
+      "lon": 115.78618,
+      "confidence": 0.974
+    }
+  },
+  {
+    "filename": "2836523399945986.jpg",
+    "fractus": {
+      "lat": 46.880295,
+      "lon": 55.531212,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -72.70966,
+      "lon": -145.25492,
+      "confidence": 0.668
+    }
+  },
+  {
+    "filename": "477345800207360.jpg",
+    "fractus": {
+      "lat": 44.123245,
+      "lon": 52.526333,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 41.35035,
+      "lon": 95.18299,
+      "confidence": 0.84
+    }
+  },
+  {
+    "filename": "1480153842653980.jpg",
+    "fractus": {
+      "lat": 41.682713,
+      "lon": 52.390606,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 20.25721,
+      "lon": -51.91814,
+      "confidence": 0.225
+    }
+  },
+  {
+    "filename": "4051514921598996.jpg",
+    "fractus": {
+      "lat": 48.593914,
+      "lon": 48.152378,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 84.08887,
+      "lon": -100.07555,
+      "confidence": 0.298
+    }
+  },
+  {
+    "filename": "841059759846486.jpg",
+    "fractus": {
+      "lat": 46.400269,
+      "lon": 53.744949,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -21.30892,
+      "lon": -51.86208,
+      "confidence": 0.306
+    }
+  },
+  {
+    "filename": "502924554483045.jpg",
+    "fractus": {
+      "lat": 45.530773,
+      "lon": 53.700012,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 47.69685,
+      "lon": 78.78286,
+      "confidence": 0.118
+    }
+  },
+  {
+    "filename": "1082977776723743.jpg",
+    "fractus": {
+      "lat": 46.066517,
+      "lon": 54.19492,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -76.62862,
+      "lon": -2.16894,
+      "confidence": 0.937
+    }
+  },
+  {
+    "filename": "4124926587546906.jpg",
+    "fractus": {
+      "lat": 48.593914,
+      "lon": 48.152378,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -62.89675,
+      "lon": -92.89764,
+      "confidence": 0.736
+    }
+  },
+  {
+    "filename": "1064794574044529.jpg",
+    "fractus": {
+      "lat": 46.01791,
+      "lon": 53.851479,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -10.99082,
+      "lon": 117.81295,
+      "confidence": 0.069
+    }
+  },
+  {
+    "filename": "761291041197691.jpg",
+    "fractus": {
+      "lat": 48.381489,
+      "lon": 45.258255,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -81.769,
+      "lon": -146.27141,
+      "confidence": 0.518
+    }
+  },
+  {
+    "filename": "515073932840268.jpg",
+    "fractus": {
+      "lat": 41.931499,
+      "lon": 45.373108,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -55.45979,
+      "lon": -174.20205,
+      "confidence": 0.409
+    }
+  },
+  {
+    "filename": "890562598209535.jpg",
+    "fractus": {
+      "lat": 43.231449,
+      "lon": 50.166214,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 51.19144,
+      "lon": -78.13653,
+      "confidence": 0.044
+    }
+  },
+  {
+    "filename": "24465779959754406.jpg",
+    "fractus": {
+      "lat": 44.193424,
+      "lon": 51.39373,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -45.50873,
+      "lon": 147.72705,
+      "confidence": 0.832
+    }
+  },
+  {
+    "filename": "479538080042921.jpg",
+    "fractus": {
+      "lat": 43.4198,
+      "lon": 53.221458,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 75.51374,
+      "lon": -119.8983,
+      "confidence": 0.686
+    }
+  },
+  {
+    "filename": "1818000932159477.jpg",
+    "fractus": {
+      "lat": 44.044476,
+      "lon": 48.441536,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -66.77849,
+      "lon": -89.22247,
+      "confidence": 0.787
+    }
+  },
+  {
+    "filename": "3834791599981703.jpg",
+    "fractus": {
+      "lat": 45.858913,
+      "lon": 53.368885,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 38.88739,
+      "lon": -60.58108,
+      "confidence": 0.246
+    }
+  },
+  {
+    "filename": "3328386817416327.jpg",
+    "fractus": {
+      "lat": 39.777649,
+      "lon": 50.276146,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -78.25793,
+      "lon": 100.18778,
+      "confidence": 0.471
+    }
+  },
+  {
+    "filename": "459321615161578.jpg",
+    "fractus": {
+      "lat": 48.381489,
+      "lon": 45.258255,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -57.76544,
+      "lon": -87.23573,
+      "confidence": 0.292
+    }
+  },
+  {
+    "filename": "320866362886902.jpg",
+    "fractus": {
+      "lat": 52.259174,
+      "lon": 50.251213,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 0.76052,
+      "lon": -35.87206,
+      "confidence": 0.751
+    }
+  },
+  {
+    "filename": "1482739219275256.jpg",
+    "fractus": {
+      "lat": 44.058399,
+      "lon": 55.364857,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 54.78097,
+      "lon": 5.70197,
+      "confidence": 0.41
+    }
+  },
+  {
+    "filename": "273622147820278.jpg",
+    "fractus": {
+      "lat": 45.797581,
+      "lon": 46.831326,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -29.66347,
+      "lon": 121.76582,
+      "confidence": 0.562
+    }
+  },
+  {
+    "filename": "476544436793158.jpg",
+    "fractus": {
+      "lat": 43.231449,
+      "lon": 50.166214,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 2.21474,
+      "lon": -67.72841,
+      "confidence": 0.623
+    }
+  },
+  {
+    "filename": "4278969512181378.jpg",
+    "fractus": {
+      "lat": 42.501534,
+      "lon": 51.955109,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 59.63117,
+      "lon": -13.08855,
+      "confidence": 0.686
+    }
+  },
+  {
+    "filename": "24592806850354086.jpg",
+    "fractus": {
+      "lat": 51.529453,
+      "lon": 55.013626,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 84.48158,
+      "lon": -175.48262,
+      "confidence": 0.395
+    }
+  },
+  {
+    "filename": "1623070191880252.jpg",
+    "fractus": {
+      "lat": 47.743225,
+      "lon": 52.894024,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 20.19963,
+      "lon": 89.76507,
+      "confidence": 0.623
+    }
+  },
+  {
+    "filename": "3878517812365289.jpg",
+    "fractus": {
+      "lat": 42.117706,
+      "lon": 49.330307,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 60.02597,
+      "lon": -10.68242,
+      "confidence": 0.761
+    }
+  },
+  {
+    "filename": "1882981205600466.jpg",
+    "fractus": {
+      "lat": 38.398708,
+      "lon": 52.988773,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -23.55757,
+      "lon": -115.72541,
+      "confidence": 0.14
+    }
+  },
+  {
+    "filename": "1083566137096082.jpg",
+    "fractus": {
+      "lat": 44.044476,
+      "lon": 48.441536,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -21.10858,
+      "lon": -173.82661,
+      "confidence": 0.673
+    }
+  },
+  {
+    "filename": "308802094072192.jpg",
+    "fractus": {
+      "lat": 42.45718,
+      "lon": 53.734512,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -63.06037,
+      "lon": -59.36752,
+      "confidence": 0.114
+    }
+  },
+  {
+    "filename": "2955463058107392.jpg",
+    "fractus": {
+      "lat": 42.563557,
+      "lon": 50.145367,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -78.29389,
+      "lon": -110.89585,
+      "confidence": 0.951
+    }
+  },
+  {
+    "filename": "1822196591956487.jpg",
+    "fractus": {
+      "lat": 42.117706,
+      "lon": 49.330307,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -26.58484,
+      "lon": 161.52533,
+      "confidence": 0.307
+    }
+  },
+  {
+    "filename": "4001664006579343.jpg",
+    "fractus": {
+      "lat": 44.848309,
+      "lon": 51.157227,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -60.625,
+      "lon": -17.04006,
+      "confidence": 0.979
+    }
+  },
+  {
+    "filename": "2833956663521918.jpg",
+    "fractus": {
+      "lat": 45.960892,
+      "lon": 51.133121,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -39.92102,
+      "lon": 49.72941,
+      "confidence": 0.551
+    }
+  },
+  {
+    "filename": "2932490720357472.jpg",
+    "fractus": {
+      "lat": 38.398708,
+      "lon": 52.988773,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -49.01968,
+      "lon": 118.88949,
+      "confidence": 0.329
+    }
+  },
+  {
+    "filename": "463724744702350.jpg",
+    "fractus": {
+      "lat": 49.226002,
+      "lon": 52.436924,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 12.24943,
+      "lon": 98.91856,
+      "confidence": 0.696
+    }
+  },
+  {
+    "filename": "3863184600465339.jpg",
+    "fractus": {
+      "lat": 42.563557,
+      "lon": 50.145367,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 51.7934,
+      "lon": 175.2647,
+      "confidence": 0.603
+    }
+  },
+  {
+    "filename": "259045922628705.jpg",
+    "fractus": {
+      "lat": 46.976639,
+      "lon": 51.117657,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -4.94124,
+      "lon": 93.84968,
+      "confidence": 0.649
+    }
+  },
+  {
+    "filename": "3691603964475207.jpg",
+    "fractus": {
+      "lat": 39.777649,
+      "lon": 50.276146,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -72.16082,
+      "lon": -52.13154,
+      "confidence": 0.871
+    }
+  },
+  {
+    "filename": "1489101445609732.jpg",
+    "fractus": {
+      "lat": 45.771252,
+      "lon": 56.08802,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -26.04515,
+      "lon": 143.50389,
+      "confidence": 0.601
+    }
+  },
+  {
+    "filename": "1415691829699835.jpg",
+    "fractus": {
+      "lat": 45.858913,
+      "lon": 53.368885,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -64.34389,
+      "lon": -161.75349,
+      "confidence": 0.177
+    }
+  },
+  {
+    "filename": "1122060281605529.jpg",
+    "fractus": {
+      "lat": 43.247952,
+      "lon": 46.795692,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": 65.70313,
+      "lon": -30.48682,
+      "confidence": 0.112
+    }
+  },
+  {
+    "filename": "700153395531459.jpg",
+    "fractus": {
+      "lat": 45.530773,
+      "lon": 53.700012,
+      "score": 0.8,
+      "source": "fallback"
+    },
+    "plonk": {
+      "lat": -0.03262,
+      "lon": -39.95814,
+      "confidence": 0.114
+    }
+  }
+]

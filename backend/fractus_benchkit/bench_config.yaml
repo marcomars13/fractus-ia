@@ -1,0 +1,10 @@
+sizes:
+  - 100MB
+  - 1GB
+  - 10GB
+repeats: 3
+chunksize: 32MB
+seed: 42
+io_only: false
+compute_only: false
+use_mock: true

@@ -1,0 +1,38 @@
+# Environnements virtuels
+.venv/
+.venv311/
+
+# Fichiers système macOS
+.DS_Store
+
+# Caches Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs et fichiers temporaires
+*.log
+logs/
+*.tmp
+*.bak
+
+# Datasets lourds
+data/
+test_images_*/
+results_*/
+uploads/
+
+# Modèles lourds
+*.bin
+*.pt
+*.joblib
+models/
+plonk_official/
+fractus_model_full.py
+
+# Autres fichiers locaux
+*.zip
+*.tar
+*.tar.gz
+

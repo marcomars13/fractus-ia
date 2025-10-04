@@ -1,0 +1,5 @@
+Résumé comparaison Plonk officiel (HQ) vs Fractus Ultimate
+Chemin images : /Users/marco/Projets/fractus-ia/test_images
+Nombre total testés : 2
+Erreur moyenne Plonk   : 633.12 km
+Erreur moyenne Fractus : nan km

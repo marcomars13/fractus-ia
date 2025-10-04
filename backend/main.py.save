@@ -1,0 +1,56 @@
+from fastapi import FastAPI, HTTPException from fastapi.middleware.cors 
+import CORSMiddleware from pydantic import BaseModel from typing import 
+List, Union, Optional import time nano 
+~/Projets/fractus-ia/backend/main.py # --- Création app --- app = 
+FastAPI(title="Fractus × IA", version="0.1.0")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# --- Models ---
+class AnomalyRequest(BaseModel):
+    data: Union[str, List[Union[int, float]]]
+    pattern: str = ""
+    window: int = 32
+
+class ScoreResponse(BaseModel):
+    n: int
+    window: int
+    pattern: str
+    scores: List[float]
+    elapsed_ms: float
+
+# --- Endpoint racine ---
+@app.get("/")
+def root():
+    return {"message": "Bienvenue sur l’API Fractus × IA 🚀"}
+
+# --- Endpoint santé ---
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
+# --- Endpoint scoring ---
+@app.post("/anomaly/score", response_model=ScoreResponse)
+def anomaly_score(req: AnomalyRequest):
+    seq = [int(x) for x in range(len(req.data))] if isinstance(req.data, str) else req.data
+    if len(seq) < 2:
+        raise HTTPException(status_code=400, detail="Séquence trop courte.")
+
+    t0 = time.perf_counter()
+    scores = [float(i) / len(seq) for i in range(len(seq))]  # simplifié
+    elapsed = (time.perf_counter() - t0) * 1000.0
+
+    return ScoreResponse(
+        n=len(seq),
+        window=req.window,
+        pattern=req.pattern,
+        scores=scores,
+        elapsed_ms=elapsed,
+    )
+

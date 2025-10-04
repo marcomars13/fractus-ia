@@ -1,0 +1,8 @@
+variant,mean_km,median_km,n
+pil_identity,2645.628,765.491,5
+resize_224,1140.299,845.370,5
+resize_336,1013.301,455.699,5
+resize_384,1007.008,473.959,5
+resize_518,1018.557,461.874,5
+shortside_384_center,2253.217,404.529,5
+shortside_518_center,2299.982,496.848,5

@@ -1,0 +1,93 @@
+from fractus_algo import process_chunk as real_process
+import argparse, os, time, pathlib, platform, psutil
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# --- Import des deux versions ---
+from mock_fractus import process_chunk as mock_process
+# ⚠️ Remplace ici par ton vrai module Fractus :
+from fractus_core import process_chunk as real_process  
+
+SIZE_UNITS = {"B":1, "KB":1024, "MB":1024**2, "GB":1024**3}
+
+def parse_size(s: str) -> int:
+    s = s.strip().upper()
+    for unit in ("GB","MB","KB","B"):
+        if s.endswith(unit):
+            return int(float(s[:-len(unit)].strip()) * SIZE_UNITS[unit])
+    return int(float(s) * SIZE_UNITS["MB"])
+
+def ensure_dir(p): pathlib.Path(p).mkdir(parents=True, exist_ok=True)
+
+def randbytes(size_bytes, seed):
+    rng = np.random.default_rng(seed)
+    return rng.integers(0, 256, size=size_bytes, dtype=np.uint8).tobytes()
+
+def bench(size_bytes, repeats, chunksize, processor, label, seed_base):
+    rows = []
+    for r in range(repeats):
+        data = randbytes(size_bytes, seed_base+r)
+        t0 = time.perf_counter()
+        offset = 0
+        while offset < size_bytes:
+            chunk = memoryview(data[offset:offset+chunksize])
+            _ = processor(chunk)
+            offset += chunksize
+        t1 = time.perf_counter()
+        rows.append(t1-t0)
+    return {
+        "label": label,
+        "size_bytes": size_bytes,
+        "size_mb": size_bytes/(1024**2),
+        "time_med": float(np.median(rows)),
+        "mbps": (size_bytes/(1024**2))/np.median(rows)
+    }
+
+def plot_compare(df, outpng):
+    plt.figure()
+    for label in df["label"].unique():
+        subset = df[df["label"]==label]
+        plt.plot(subset["size_mb"], subset["time_med"], marker="o", label=label)
+    plt.xlabel("Taille (MB)")
+    plt.ylabel("Temps médian (s)")
+    plt.title("Mock vs Fractus — Scalabilité")
+    plt.grid(True, ls="--", alpha=0.5)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(outpng, dpi=144)
+    plt.close()
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--sizes", nargs="+", default=["100MB","1GB"])
+    parser.add_argument("--repeats", type=int, default=1)
+    parser.add_argument("--chunksize", type=str, default="32MB")
+    parser.add_argument("--seed", type=int, default=42)
+    args = parser.parse_args()
+
+    sizes_bytes = [parse_size(s) for s in args.sizes]
+    chunksize_bytes = parse_size(args.chunksize)
+
+    outdir = "results"
+    ensure_dir(outdir)
+
+    results = []
+    for s in sizes_bytes:
+        results.append(bench(s, args.repeats, chunksize_bytes, mock_process, "Mock", args.seed))
+        results.append(bench(s, args.repeats, chunksize_bytes, real_process, "Fractus", args.seed))
+
+    df = pd.DataFrame(results)
+    csv_path = os.path.join(outdir, "fractus_compare.csv")
+    df.to_csv(csv_path, index=False)
+
+    png_path = os.path.join(outdir, "fractus_compare.png")
+    plot_compare(df, png_path)
+
+    print(f"[OK] Résultats: {csv_path}")
+    print(f"[OK] Graphique: {png_path}")
+    print(df.to_string(index=False))
+
+if __name__ == "__main__":
+    main()
+

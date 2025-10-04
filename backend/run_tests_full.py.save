@@ -1,0 +1,54 @@
+            "meta": {"engine": "plonk+fractus", "adjustment": adjustment}
+        }
+    except Exception as e:
+        err_msg = traceback.format_exc()
+        print(f"⚠️ [run_fractus_full_api] fallback:\n{err_msg}")
+        return {
+            "lat": 48.8566,
+            "lon": 2.3522,
+            "score": 0,
+            "meta": {"engine": "fractus (fallback)", "error": str(e)}
+        }
+
+# ------------------------
+# 🔹 Calcul distance
+# ------------------------
+def haversine(lat1, lon1, lat2, lon2):
+    R = 6371.0
+    p1, p2 = np.radians(lat1), np.radians(lat2)
+    dlat = np.radians(lat2 - lat1)
+    dlon = np.radians(lon2 - lon1)
+    a = np.sin(dlat / 2)**2 + np.cos(p1) * np.cos(p2) * np.sin(dlon / 2)**2
+    return R * 2 * np.arcsin(np.sqrt(a))
+
+# ------------------------
+# 🔹 Main
+# ------------------------
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("❌ Usage: python run_tests_full.py <image_path>")
+        sys.exit(1)
+
+    img_path = sys.argv[1]
+    img = cv2.imread(img_path)
+    if img is None:
+        print(f"❌ Impossible de lire l'image: {img_path}")
+        sys.exit(1)
+
+    img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
+    plonk_res = run_plonk_api(img_rgb)
+    fractus_res = run_fractus_full_api(img_rgb)
+
+    print("\n📊 Résultats comparés :")
+    print(f"   ➤ Plonk seul       : lat={plonk_res['lat']}, lon={plonk_res['lon']}")
+    print(f"   ➤ Plonk + Fractus  : lat={fractus_res['lat']}, lon={fractus_res['lon']}")
+
+    if None not in (plonk_res["lat"], plonk_res["lon"],
+                    fractus_res["lat"], fractus_res["lon"]):
+        d = haversine(plonk_res["lat"], plonk_res["lon"],
+                      fractus_res["lat"], fractus_res["lon"])
+        print(f"📏 Distance entre les 2 prédictions : {d:.2f} km")
+    else:
+        print("⚠️ Résultats incomplets (fallback utilisé).")
+

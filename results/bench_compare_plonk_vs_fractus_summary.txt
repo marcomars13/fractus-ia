@@ -1,0 +1,2 @@
+Erreur moyenne Plonk: 28.65649632764621
+Erreur moyenne Fractus: 22.816094391663373
