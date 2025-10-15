@@ -1,42 +1,70 @@
-# Environnements virtuels
+# ==========================
+#   GITIGNORE — FRACTUS IA
+# ==========================
+
+# --- ENVIRONNEMENTS PYTHON ---
 .venv/
 .venv311/
-
-# Fichiers système macOS
-.DS_Store
-
-# Caches Python
-__pycache__/
+backend/venv/
+env/
+venv/
+.env
 *.pyc
 *.pyo
 *.pyd
+__pycache__/
 
-# Logs et fichiers temporaires
+# --- FICHIERS SYSTÈME / ÉDITEURS ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.bak
+*.tmp
+
+# --- LOGS ET FICHIERS TEMPORAIRES ---
 *.log
 logs/
-*.tmp
-*.bak
+*.cache/
+*.sqlite3
 
-# Datasets lourds
+# --- DATASETS ET RÉSULTATS ---
 data/
 test_images_*/
 results_*/
 uploads/
+subsets/
+bench_*.json
+ground_truth.csv
 
-# Modèles lourds
-*.bin
-*.pt
-*.joblib
+# --- MODÈLES LOURDS / CHECKPOINTS ---
 models/
 plonk_official/
+*.pt
+*.pth
+*.bin
+*.joblib
 fractus_model_full.py
 
-# Autres fichiers locaux
+# --- BACKEND SPÉCIFIQUE ---
+backend/clinvar.vcf.gz
+backend/fractus_index.pkl
+backend/ledger.json
+backend/licenses.db
+backend/private.pem
+backend/public.pem
+
+# --- FRONTEND / BUILD / NODE ---
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+dist/
+
+# --- ARCHIVES / EXPORTS ---
 *.zip
 *.tar
 *.tar.gz
+*.tgz
 
-backend/clinvar.vcf.gz
-backend/fractus_index.pkl
-backend/fractus_index.pkl
-backend/clinvar.vcf.gz
