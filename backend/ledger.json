@@ -1,0 +1,144 @@
+[
+  {
+    "ts": 1760294858,
+    "filename": "Unknown-2.jpeg",
+    "wallet": "LOCAL-DEMO-WALLET",
+    "mode": "image",
+    "cost": 0.25,
+    "distribution": {
+      "pool": 0.1,
+      "dev": 0.075,
+      "marc": 0.05,
+      "burn": 0.025
+    }
+  },
+  {
+    "ts": 1760295955,
+    "filename": "Unknown-11.jpeg",
+    "wallet": "LOCAL-DEMO-WALLET",
+    "mode": "image",
+    "cost": 0.25,
+    "distribution": {
+      "pool": 0.1,
+      "dev": 0.075,
+      "marc": 0.05,
+      "burn": 0.025
+    }
+  },
+  {
+    "ts": 1760295993,
+    "filename": "Unknown-11.jpeg",
+    "wallet": "LOCAL-DEMO-WALLET",
+    "mode": "image",
+    "cost": 0.25,
+    "distribution": {
+      "pool": 0.1,
+      "dev": 0.075,
+      "marc": 0.05,
+      "burn": 0.025
+    }
+  },
+  {
+    "ts": 1760296046,
+    "filename": "Unknown-11.jpeg",
+    "wallet": "LOCAL-DEMO-WALLET",
+    "mode": "image",
+    "cost": 0.25,
+    "distribution": {
+      "pool": 0.1,
+      "dev": 0.075,
+      "marc": 0.05,
+      "burn": 0.025
+    }
+  },
+  {
+    "timestamp": "2025-10-13T09:23:12.373442Z",
+    "fts_spent": 1.0,
+    "distribution": {
+      "main": 0.5,
+      "pool": 0.4,
+      "treasury": 0.1
+    },
+    "addresses": {
+      "main": "Ai5a3hEMApgb1cMaZE37nLMDSzEL56yF6XJ1VWo1HUYj",
+      "pool": "AujPwkfvposKUN31mMZMKa8tQrPcyRGdLHnuFHhoVGje",
+      "treasury": "AujPwkfvposKUN31mMZMKa8tQrPcyRGdLHnuFHhoVGje"
+    },
+    "result": {
+      "score": 0.972,
+      "note": "Fractus Ultimate (multi+skyline+vector+memory)"
+    }
+  },
+  {
+    "timestamp": "2025-10-13T09:25:09.502638Z",
+    "fts_spent": 1.0,
+    "distribution": {
+      "main": 0.5,
+      "pool": 0.4,
+      "treasury": 0.1
+    },
+    "addresses": {
+      "main": "Ai5a3hEMApgb1cMaZE37nLMDSzEL56yF6XJ1VWo1HUYj",
+      "pool": "AujPwkfvposKUN31mMZMKa8tQrPcyRGdLHnuFHhoVGje",
+      "treasury": "AujPwkfvposKUN31mMZMKa8tQrPcyRGdLHnuFHhoVGje"
+    },
+    "result": {
+      "score": 0.972,
+      "note": "Fractus Ultimate (multi+skyline+vector+memory)"
+    }
+  },
+  {
+    "timestamp": "2025-10-13T10:14:01.527824Z",
+    "fts_spent": 50.0,
+    "distribution": {
+      "main": 25.0,
+      "pool": 20.0,
+      "treasury": 5.0
+    },
+    "addresses": {
+      "main": "Ai5a3hEMApgb1cMaZE37nLMDSzEL56yF6XJ1VWo1HUYj",
+      "pool": "AujPwkfvposKUN31mMZMKa8tQrPcyRGdLHnuFHhoVGje",
+      "treasury": "AujPwkfvposKUN31mMZMKa8tQrPcyRGdLHnuFHhoVGje"
+    },
+    "result": {
+      "score": 0.972,
+      "note": "Fractus Ultimate (multi+skyline+vector+memory)"
+    }
+  },
+  {
+    "timestamp": "2025-10-13T10:17:30.847930Z",
+    "fts_spent": 200.0,
+    "distribution": {
+      "main": 100.0,
+      "pool": 80.0,
+      "treasury": 20.0
+    },
+    "addresses": {
+      "main": "Ai5a3hEMApgb1cMaZE37nLMDSzEL56yF6XJ1VWo1HUYj",
+      "pool": "AujPwkfvposKUN31mMZMKa8tQrPcyRGdLHnuFHhoVGje",
+      "treasury": "AujPwkfvposKUN31mMZMKa8tQrPcyRGdLHnuFHhoVGje"
+    },
+    "result": {
+      "score": 0.972,
+      "note": "Fractus Ultimate (multi+skyline+vector+memory)"
+    }
+  },
+  {
+    "timestamp": "2025-10-13T10:17:32.789303Z",
+    "fts_spent": 1000.0,
+    "distribution": {
+      "main": 500.0,
+      "pool": 400.0,
+      "treasury": 100.0
+    },
+    "addresses": {
+      "main": "Ai5a3hEMApgb1cMaZE37nLMDSzEL56yF6XJ1VWo1HUYj",
+      "pool": "AujPwkfvposKUN31mMZMKa8tQrPcyRGdLHnuFHhoVGje",
+      "treasury": "AujPwkfvposKUN31mMZMKa8tQrPcyRGdLHnuFHhoVGje"
+    },
+    "result": {
+      "score": 0.972,
+      "note": "Fractus Ultimate (multi+skyline+vector+memory)"
+    }
+  }
+]

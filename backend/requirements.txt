@@ -1,6 +1,10 @@
-fastapi==0.110.0
-uvicorn[standard]==0.29.0
-watchfiles==0.21.0
-pydantic==2.6.1
-python-dotenv==1.0.1
-openai==1.43.0
+fastapi
+uvicorn[standard]
+pyjwt[crypto]
+sqlalchemy
+pydantic
+python-dotenv
+httpx
+pynacl
+base58
+

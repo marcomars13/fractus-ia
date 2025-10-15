@@ -1,14 +1,15 @@
 {
-  "name": "Fractus",
-  "symbol": "FRA",
-  "description": "Fractus — The Fractal Intelligence Engine bridging math, AI, and blockchain truth.",
-  "image": "https://raw.githubusercontent.com/marcomars13/fractus-ia/main/assets/fractus_logo.png",
+  "name": "Fractys",
+  "symbol": "FTS",
+  "description": "Fractus — The Fractal Intelligence Engine bridging mathematics, AI and blockchain validation.",
+  "image": "https://raw.githubusercontent.com/marcomars13/fractus-ia/main/assets/fractus_token.png",
   "external_url": "https://github.com/marcomars13/fractus-ia",
   "seller_fee_basis_points": 0,
   "attributes": [
     { "trait_type": "Creator", "value": "Marc Cedrych" },
-    { "trait_type": "Network", "value": "Solana Mainnet" },
-    { "trait_type": "Purpose", "value": "Fractal Proof of Validation" }
+    { "trait_type": "Core Law", "value": "Fractal Self-Similarity" },
+    { "trait_type": "Domain", "value": "Universal Anomaly Detection" },
+    { "trait_type": "Validation", "value": "Solana On-Chain Proof" }
   ],
   "collection": {
     "name": "Fractus",
@@ -17,7 +18,7 @@
   "properties": {
     "files": [
       {
-        "uri": "https://raw.githubusercontent.com/marcomars13/fractus-ia/main/assets/fractus_logo.png",
+        "uri": "https://raw.githubusercontent.com/marcomars13/fractus-ia/main/assets/fractus_token.png",
         "type": "image/png"
       }
     ],
@@ -30,3 +31,4 @@
     ]
   }
 }
+

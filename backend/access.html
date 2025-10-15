@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Fractys — Activation de licence</title>
+  <script src="https://unpkg.com/@solana/web3.js@1.95.3/lib/index.iife.min.js"></script>
+  <style>
+    body{background:#000;color:#e6fff7;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;max-width:720px;margin:40px auto;padding:24px}
+    input,button{padding:10px 14px;border-radius:10px;border:1px solid #1e5f55;background:#081311;color:#e6fff7}
+    button{cursor:pointer}
+    .row{display:flex;gap:8px;margin:12px 0}
+    .ok{color:#90f0d0}
+    .err{color:#ff9090}
+    code{word-break:break-all}
+  </style>
+</head>
+<body>
+  <h1>Fractys — Activation de licence</h1>
+
+  <div class="row">
+    <input id="jwt" placeholder="Collez ici votre token de licence (JWT)" style="flex:1"/>
+    <button onclick="saveJWT()">Enregistrer</button>
+  </div>
+
+  <div class="row">
+    <button onclick="connectPhantom()">1) Connecter Phantom</button>
+    <button onclick="activate()">2) Activer (signature)</button>
+  </div>
+
+  <p id="wallet">Wallet : <em>non connecté</em></p>
+  <p id="status"></p>
+  <pre id="log"></pre>
+
+  <script>
+  const API_BASE = "http://127.0.0.1:9091"; // ← bon port local
+
+  let phantom = null;
+  let pubkey = null;
+  let token = "";
+
+  function log(msg){ document.getElementById('log').textContent = msg; }
+  function setStatus(msg, ok=true){ 
+    document.getElementById('status').innerHTML = (ok ? '<span class="ok">✅ ' : '<span class="err">❌ ') + msg + '</span>';
+  }
+
+  function saveJWT(){
+    token = document.getElementById('jwt').value.trim();
+    if(!token){ setStatus("Collez d'abord le JWT.", false); return; }
+    setStatus("JWT enregistré.");
+  }
+
+  function getProvider(){
+    if("phantom" in window && window.phantom?.solana?.isPhantom) return window.phantom.solana;
+    window.open("https://phantom.app/", "_blank"); throw new Error("Phantom non trouvé");
+  }
+
+  async function connectPhantom(){
+    try{
+      phantom = getProvider();
+      const resp = await phantom.connect({onlyIfTrusted:false});
+      pubkey = resp.publicKey.toBase58();
+      document.getElementById('wallet').innerHTML = "Wallet : <code>"+pubkey+"</code>";
+      setStatus("Phantom connecté.");
+    }catch(e){ setStatus("Connexion Phantom échouée : "+e.message, false); }
+  }
+
+  function utf8(s){ return new TextEncoder().encode(s); }
+  function b64(u8){ return btoa(String.fromCharCode(...u8)); }
+  function nonce(){ return crypto.getRandomValues(new Uint32Array(4)).join("-"); }
+
+  async function activate(){
+    try{
+      if(!token) return setStatus("Collez d'abord le JWT et cliquez sur Enregistrer.", false);
+      if(!pubkey) await connectPhantom();
+
+      const n = nonce();
+      const ts = Math.floor(Date.now()/1000);
+      const message =
+`Fractys Licence Activation
+lic_id: (sera vérifié côté serveur via le JWT)
+wallet: ${pubkey}
+nonce: ${n}
+timestamp: ${ts}
+domain: fractys.io`;
+
+      const msgBytes = utf8(message);
+      const signed = await phantom.signMessage(msgBytes, "utf8");
+      const signatureB64 = b64(signed.signature);
+      const messageB64   = b64(msgBytes);
+
+      const res = await fetch(`${API_BASE}/activate_bind`, {
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body: JSON.stringify({
+          token,
+          public_key: pubkey,
+          message: messageB64,
+          signature: signatureB64,
+          nonce: n,
+          timestamp: ts
+        })
+      });
+      if(!res.ok){
+        const err = await res.json().catch(()=>({detail:res.statusText}));
+        throw new Error(err.detail || ("HTTP "+res.status));
+      }
+      const data = await res.json();
+      setStatus(`Licence liée à ${data.wallet}. Expire le ${new Date(data.expires).toLocaleString()}`);
+      log(JSON.stringify(data, null, 2));
+
+      const v = await fetch(`${API_BASE}/validate?token=${encodeURIComponent(token)}&wallet=${encodeURIComponent(pubkey)}`);
+      if(!v.ok){
+        const err = await v.json().catch(()=>({detail:v.statusText}));
+        throw new Error("Validation access: "+(err.detail || v.status));
+      }
+      const ok = await v.json();
+      log(JSON.stringify({activation:data, validation:ok}, null, 2));
+    }catch(e){
+      setStatus("Activation échouée : "+e.message, false);
+    }
+  }
+  </script>
+</body>
+</html>
+
+

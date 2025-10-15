@@ -1,0 +1,17 @@
+{
+  "name": "Fractus Token",
+  "symbol": "FRA",
+  "address": "CR2SFjXN3dqsSR2mL4bb9suAZ4B617djphGJTKvrQoxU",
+  "decimals": 9,
+  "logoURI": "https://gateway.irys.xyz/9CrjZD79GUGNUPdarg3CAYUMqNjEN4v84xpP79aJkVnr",
+  "tags": ["fractal", "ai", "blockchain", "innovation", "research"],
+  "extensions": {
+    "website": "https://github.com/marc-aico/fractus",
+    "twitter": "https://x.com/mirovia_ai",
+    "telegram": "https://t.me/fractusai",
+    "description": "Fractus — The Fractal Intelligence Engine bridging math, AI, and blockchain truth.",
+    "creator": "Marc Aico",
+    "github": "https://github.com/marc-aico/fractus"
+  }
+}
+
